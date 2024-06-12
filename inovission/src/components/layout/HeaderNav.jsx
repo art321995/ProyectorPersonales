@@ -1,31 +1,34 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom";
+
 
 
 const HeaderNav = () => {
   return (
-    <>
-       <Link to="/"><img src="Icono.jpg" /></Link> 
-       <nav>
+    <header className="header">
+        <div className="logo">
+            <a href="/"><img src="Icono.jpg"></img></a>
+            <Link className="btnexamen" to="https://web.whatsapp.com/"> Agenda Examen Gratis!</Link>
+        </div>
+      
+      <nav>
             <ul>
                 <li>
                     <NavLink to="/inicio" className={({isActive}) => isActive ? "active" : ""}>Inicio</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/portafolio">Portafolio</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/servicios">Servicios</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/curriculum">Curriculum</NavLink>
+                    <NavLink to="/galeria">Galeria</NavLink>
                 </li>
                 <li>
                     <NavLink to="/contacto">Contacto</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/Ubicacion">Ubicacion</NavLink>
+                </li>
+                
+                
             </ul>
         </nav>
-
-    </>
+    </header>
     
     
   )
