@@ -2,7 +2,10 @@
 
 const Ubicacion = () => {
   return (
-    <div>Ubicacion</div>
+    <div> 
+      <h1>Ubicacion</h1>
+
+    </div>
   )
 }
 

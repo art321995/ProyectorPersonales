@@ -7,7 +7,8 @@ const HeaderNav = () => {
     <header className="header">
         <div className="logo">
             <a href="/"><img src="Icono.jpg"></img></a>
-            <Link className="btnexamen" to="https://web.whatsapp.com/"> Agenda Examen Gratis!</Link>
+            <div className="imgcalendario"><img src="./images/calendario.png"></img></div>
+            <Link className="btnexamen" to="https://web.whatsapp.com/">  Agenda Examen Gratis!</Link>
         </div>
       
       <nav>
