@@ -4,7 +4,7 @@ const Galeria = () => {
   return (
     <div>
        
-       <h1>Galeria</h1>
+       <h1>Paquetes</h1>
 
     </div>
   )

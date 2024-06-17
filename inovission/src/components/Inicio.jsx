@@ -3,7 +3,7 @@
 const Inicio = () => {
   return (
     <div className="page">
-      <img src="./images/portada1.jpg"></img>
+      <img src="./images/portada5.png"></img>
     </div>
   )
 }

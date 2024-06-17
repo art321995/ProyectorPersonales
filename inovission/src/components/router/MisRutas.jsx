@@ -12,7 +12,6 @@ const MisRutas = () => {
     return(
         <BrowserRouter>
             <HeaderNav />
-            <hr/>
 
             <section className="content">
                 <Routes>

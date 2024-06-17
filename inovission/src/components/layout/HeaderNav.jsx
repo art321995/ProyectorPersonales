@@ -6,9 +6,7 @@ const HeaderNav = () => {
   return (
     <header className="header">
         <div className="logo">
-            <a href="/"><img src="Icono.jpg"></img></a>
-            <div className="imgcalendario"><img src="./images/calendario.png"></img></div>
-            <Link className="btnexamen" to="https://web.whatsapp.com/">  Agenda Examen Gratis!</Link>
+            <a href="/"><img src="Iconoazul.png"></img></a>   
         </div>
       
       <nav>
@@ -17,7 +15,7 @@ const HeaderNav = () => {
                     <NavLink to="/inicio" className={({isActive}) => isActive ? "active" : ""}>Inicio</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/galeria">Galeria</NavLink>
+                    <NavLink to="/galeria">Paquetes</NavLink>
                 </li>
                 <li>
                     <NavLink to="/contacto">Contacto</NavLink>
@@ -25,7 +23,8 @@ const HeaderNav = () => {
                 <li>
                     <NavLink to="/Ubicacion">Ubicacion</NavLink>
                 </li>
-                
+                <div className="imgcalendario"><img src="./images/calendario.png"></img></div>
+                <Link className="btnexamen" to="https://web.whatsapp.com/">Agenda Examen Gratis!</Link>
                 
             </ul>
         </nav>
