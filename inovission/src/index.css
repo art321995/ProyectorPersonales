@@ -8,6 +8,7 @@
 }
 
 body{
+  width: 100%;
   font-family: "Poppins", sans-serif;;
   background: white;
 }
@@ -22,8 +23,8 @@ h1{
 
 .header{
   background: white;
-  margin: 0px;
   display: flex;
+  margin-bottom: 30px;
 }
 .logo{
   display: flex;
@@ -36,6 +37,9 @@ h1{
   margin-bottom: 10px;
   display: block;
   margin-right: 200px;
+}
+section .content{
+  width: 100%;
 }
 header nav ul{
   display: flex;
@@ -106,7 +110,7 @@ header nav ul{
 
 footer{
   text-align: center;
-  margin-top: 15px;
+  margin-top: 50px;
 }
 
 .redes{
@@ -169,4 +173,28 @@ form .btnEnviarF{
 form .btnEnviarF:hover{
   background-color: #3f9afb;
   color: white;
+}
+
+/* Estilos slider o Carrusel */
+
+.Carosul{
+  width: 96%;
+  justify-content: center;
+  margin: auto;
+}
+
+.CarosulSec {
+  width: 96%;
+  justify-content: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.TituloCarosulSec{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 90px;
+  color: black;
 }

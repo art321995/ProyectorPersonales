@@ -26,8 +26,7 @@ const MisRutas = () => {
                         </div>} />
                 </Routes>
 
-            </section>
-            <hr/>        
+            </section>       
             <Footer />
         </BrowserRouter>
     )
