@@ -14,7 +14,7 @@ const Carousel = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: true
@@ -45,7 +45,7 @@ const Carousel = () => {
           <img src="src/components/slider/img/Carrusel3.png" alt="slide-3" />
         </div>
         <div>
-          <img src="src/components/slider/img/Carrusel4.png" alt="slide-1" />
+          <img src="src/components/slider/img/Carrusel4.png" alt="slide-4" />
         </div>
       </Slider>
     </div>

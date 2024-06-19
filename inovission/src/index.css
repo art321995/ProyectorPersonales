@@ -21,6 +21,8 @@ h1{
   margin: 20px auto;
 }
 
+/* Estilos del Menu completo */
+
 .header{
   background: white;
   display: flex;
@@ -195,6 +197,81 @@ form .btnEnviarF:hover{
   text-align: center;
   font-size: 40px;
   font-weight: bold;
-  margin-top: 90px;
+  margin-top: 70px;
   color: black;
+}
+
+/* Estilos de contenedor de Paquetes en pagina de Inicio */
+
+.PaquetesInicio{
+  margin-top: 25px;
+  display: flex;
+}
+
+.contenedor-paquetes{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #f3eeee;
+}
+
+.contenedor-paquetes img{
+  margin: 35px 45px;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.btnVerMas{
+  display: flex;
+  background: #088ac7;
+  margin: auto;
+  color: white;
+  width: 30%;
+  padding: 3px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  justify-content: center;
+}
+.btnVerMas:hover{
+  text-decoration: underline;
+  background-color: white;
+  font-weight: bold;
+  color: #088ac7;
+}
+
+h3{
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+/* Estilos de contenedor de Lentes de Contacto en pagina de Inicio */
+.contenedor-lentescontacto{
+  display: flex;
+  margin: 30px 0px;
+}
+.imgPrincipal{
+  display: flex;
+  width: 50%;
+
+}
+.imgPrincipal img{
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  width: 550px;
+}
+.imgSecundaria{
+  width: 25%;
+}
+.imgSecundaria img{
+  margin: auto;
+}
+.PrecioInicio{
+  text-align: center;
+  font-size: 25px;
+  color:#088ac7;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
