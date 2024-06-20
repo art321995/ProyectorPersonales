@@ -3,8 +3,8 @@ import HeaderNav from "../layout/HeaderNav";
 import Footer from "../layout/Footer";
 import Inicio from "../Inicio";
 import Contacto from "../Contacto";
-import Ubicacion from "../Ubicacion";
 import Paquetes from "../Paquetes";
+import SaberMas from "../SaberMas";
 
 
 const MisRutas = () => {
@@ -18,8 +18,8 @@ const MisRutas = () => {
                     <Route path="/" element={<Navigate to="/inicio" />} />
                     <Route path="/inicio" element={<Inicio />} />
                     <Route path="/paquetes" element={<Paquetes />} />
+                    <Route path="/sabermas" element={<SaberMas />} />
                     <Route path="/contacto" element={<Contacto />} />
-                    <Route path="/ubicacion" element={<Ubicacion />} />
                     <Route path="*" element={
                         <div className="page">
                             <h1 className="heading" >Error 404 Not Found</h1>

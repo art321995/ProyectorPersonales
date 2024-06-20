@@ -1,66 +1,114 @@
-import { useFormik } from "formik";
-import * as Yup from "yup";
-
-const validationSchema = Yup.object().shape({
-    nombre: Yup.string().min(2,"El nombre es muy corto").max(50,"El nombre es muy largo").required("Campo Obligatorio"),
-    apellido: Yup.string().min(3,"El nombre es muy corto").max(50,"El nombre es muy largo").required("Campo Obligatorio"),
-    email: Yup.string().email("Email invalido").required("Compo Obligatorio"),
-    telefono: Yup.number().min(8,"Telefono incorrecto").max(14, "Telefono incorrecto").required("Compo Obligatorio"),
-    comentario: Yup.string().min(5,"Mensaje corto").max(1000,"Llegaste al maximo permitido").required("Compo Obligatorio")
-})
+import { Link } from "react-router-dom";
 
 
 const Contacto = () => {
-
-  const formik = useFormik({
-    initialValues: {
-      nombre: "",
-      apellido: "",
-      email: "",
-      telefono: "",
-      comentario: ""
-    },
-    validationSchema,
-    onSubmit: values =>{
-      console.log(values)
-    }
-  })
   return (
-    <div className="contacto">
-      <h1>Contacto</h1>
-
-      <form onSubmit={formik.handleSubmit} className="formulario">
-        <div className="form-group">
-          <label htmlFor="nombre">Nombre(s)</label>
-          <input type="text" id="nombre" name="nombre" value={formik.values.nombre} onChange={formik.handleChange} />
-          <div className="error">{formik.errors.nombre && formik.touched.nombre ? formik.errors.nombre: "" }</div>
+    <div className="Contacto">
+      <h1>Lentes De Contacto</h1>
+      <div className="imgPrimerFila">
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/Biofinity.png"></img>
+          <div className="PrecioInicio">$1090</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
         </div>
-        <div className="form-group">
-          <label htmlFor="apellido">Apellidos</label>
-          <input type="text" id="apellido" name="apellido" value={formik.values.apellido} onChange={formik.handleChange} />
-          <div className="error">{formik.errors.apellido && formik.touched.apellido ? formik.errors.apellido: "" }</div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/BiofinityToric.png"></img>
+          <div className="PrecioInicio">$1290</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
         </div>
-        <div className="form-group">
-          <label htmlFor="email">Email</label>
-          <input type="email" id="email" name="email" value={formik.values.email} onChange={formik.handleChange} />
-          <div className="error">{formik.errors.email && formik.touched.email ? formik.errors.email: "" }</div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/BiofinityMultifocal.png"></img>
+          <div className="PrecioInicio">$1690</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
         </div>
-        <div className="form-group">
-          <label htmlFor="telefono">Telefono</label>
-          <input type="text" id="telefono" name="telefono" value={formik.values.telefono} onChange={formik.handleChange} />
-          <div className="error">{formik.errors.telefono && formik.touched.telefono ? formik.errors.telefono: "" }</div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/BiofinityXRToric.png"></img>
+          <div className="PrecioInicio">$2590</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
         </div>
-        <div className="form-group">
-          <label htmlFor="comentario">Comentarios</label>
-          <input type="textarea" id="comentario" name="comentario" value={formik.values.comentario} onChange={formik.handleChange} />
-          <div className="error">{formik.errors.comentario && formik.touched.comentario ? formik.errors.comentario: "" }</div>
+      </div>
+      <div className="imgPrimerFila">
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/AcuvueMoist.png"></img>
+          <div className="PrecioInicio">$990</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
         </div>
-
-        <button type="submit" className="btnEnviarF" value="Enviar" >Enviar</button>
-
-      </form>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/AcuvueOasys.png"></img>
+          <div className="PrecioInicio">$990</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/AcuvueOasysToric.png"></img>
+          <div className="PrecioInicio">$1090</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/AcuvueVita.png"></img>
+          <div className="PrecioInicio">$1090</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+      </div>
+      <div className="imgPrimerFila">
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/AcuvueVitaToric.png"></img>
+          <div className="PrecioInicio">$1490</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/AirOptix.png"></img>
+          <div className="PrecioInicio">$990</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/AirOptixHydra.png"></img>
+          <div className="PrecioInicio">$1090</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/AirOptixHydraToric.png"></img>
+          <div className="PrecioInicio">$1590</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+      </div>
+      <div className="imgPrimerFila">
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/FreshLook.png"></img>
+          <div className="PrecioInicio">$490</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/Biomedics.png"></img>
+          <div className="PrecioInicio">$990</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/BiomedicsNow.png"></img>
+          <div className="PrecioInicio">$690</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/BiomedicsToric.png"></img>
+          <div className="PrecioInicio">$1090</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+      </div>
+      <div className="imgUltimaFila">
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/Soflens.png"></img>
+          <div className="PrecioInicio">$690</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+        <div className="contenedorimagenes">
+          <img src="src/components/paqutes/img/SoflensToric.png"></img>
+          <div className="PrecioInicio">$990</div>
+          <Link className="btnMeInteresa" to="https://bit.ly/3t2KxE0">Me interesa</Link>
+        </div>
+      </div>
     </div>
   )
 }
 
 export default Contacto;
+
+

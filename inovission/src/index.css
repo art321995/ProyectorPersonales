@@ -16,9 +16,10 @@ body{
 h1{
   text-align: center;
   color: black;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   margin: 20px auto;
+  text-decoration: underline;
 }
 
 /* Estilos del Menu completo */
@@ -50,7 +51,7 @@ header nav ul{
   list-style: none;
   margin: 5px;
   margin-top: 20px;
-  margin-left: 100px;
+  
 }
 .header li{
   font-family: "Poppins", sans-serif;;
@@ -77,20 +78,20 @@ header nav ul{
   width: 25px;
   height: 25px;
   display: flex;
-  margin-left: 250px;
+  margin-left: 270px;
 }
 .btnexamen{
+  justify-content: end;
   display: flex;
   border: none;
   color: #088ac7;
   padding: 5px 5px; 
   text-align: center;
   text-decoration: none; 
-  display: inline-block;
   font-size: 20px; 
   cursor: pointer;
   border-radius: 8px; 
-  transition-duration: 0.2s; 
+  transition-duration: 0.1s; 
   outline: none;
   font-weight: bold
 }
@@ -113,16 +114,22 @@ header nav ul{
 footer{
   text-align: center;
   margin-top: 50px;
+  background: #f3eeee;
+  padding: 15px 0px;
 }
 
 .redes{
   display: flex;
   margin: auto;
-  justify-content: center;
+  justify-content: end;
 }
 
 .redes .instagram, .facebook, .tiktok{
   padding: 5px 15px;
+}
+.redes img{
+  border-radius: 50px;
+  justify-content: end;
 }
 
 /* Estilos pagina contacto y formulario */
@@ -131,9 +138,10 @@ form{
   max-width: 500px;
   margin: 0 auto;
   border: 1px solid gray;
-  border-radius: 20px;
   padding: 15px;
   margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 form label{
@@ -274,4 +282,64 @@ h3{
   color:#088ac7;
   padding-bottom: 10px;
   font-weight: bold;
+}
+
+/*Estilos de Pagina de Paquetes */
+
+.ContenedorPaquetes{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+
+.ContenedorPaquetes img{
+  padding: 15px 0px;
+}
+.btnMeInteresa{
+  display: flex;
+  background: #088ac7;
+  margin: auto;
+  color: white;
+  width: 50%;
+  padding: 3px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  justify-content: center;
+}
+.btnMeInteresa:hover{
+  text-decoration: underline;
+  background-color: white;
+  font-weight: bold;
+  color: #088ac7;
+}
+.ImagenFinal {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100%;
+}
+
+.ImagenFinal img {
+  max-width: 100%; 
+  max-height: 100%; 
+}
+
+/*Estilos de Pagina de Lentes de Contacto */
+
+.Contacto{
+  padding: 0px 80px;
+}
+
+.imgPrimerFila{
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgPrimerFila img{
+  display: block;
+}
+
+.imgUltimaFila{
+  display: flex;
+  justify-content: space-evenly;
 }

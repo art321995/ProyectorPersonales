@@ -18,13 +18,13 @@ const HeaderNav = () => {
                     <NavLink to="/paquetes">Paquetes</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contacto">Contacto</NavLink>
+                    <NavLink to="/contacto">Lentes De Contacto</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/Ubicacion">Ubicacion</NavLink>
+                    <NavLink to="/sabermas">Saber Mas...</NavLink>
                 </li>
                 <div className="imgcalendario"><img src="./images/calendario.png"></img></div>
-                <Link className="btnexamen" to="https://web.whatsapp.com/">Agenda Examen Gratis!</Link>
+                <Link className="btnexamen" to="https://bit.ly/3t2KxE0">Agenda Examen Gratis!</Link>
                 
             </ul>
         </nav>
