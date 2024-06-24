@@ -18,7 +18,7 @@ const LentesCoInicio = () => {
         </div>
         <div className="imgSecundaria">
             <img src="src/components/paqutes/img/AirOptixHydra.png"></img>
-            <div className="PrecioInicio">$990</div>
+            <div className="PrecioInicio">$1090</div>
             <Link className="btnVerMas" to="/contacto" onClick={handleClick}>Ver mas</Link>
         </div>
     </div>

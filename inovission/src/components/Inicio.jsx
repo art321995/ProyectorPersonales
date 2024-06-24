@@ -1,4 +1,5 @@
 import LentesCoInicio from "./paqutes/LentesCoInicio"
+import LentesMarca from "./paqutes/LentesMarca"
 import PaquetesInicio from "./paqutes/PaquetesInicio"
 import Carousel from "./slider/Carrusel"
 import CarouselSec from "./slider/CarruselSec"
@@ -22,6 +23,10 @@ const Inicio = () => {
         <h2 className="TituloCarosulSec">Lentes de Contacto</h2>
       <div>
         <LentesCoInicio />
+      </div>
+      <h2 className="TituloCarosulSec">Marcas de Diseñador</h2>
+      <div>
+         <LentesMarca />
       </div>
    </>
       

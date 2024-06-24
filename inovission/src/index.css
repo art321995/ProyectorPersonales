@@ -61,17 +61,19 @@ header nav ul{
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 5px;
-  background: #088ac7;
-  color: white;
+  color: #088ac7;
   transition-duration: 0.1s;
   border-radius: 15px;
 }
+
+.header .active,
 .header li:hover{
   text-decoration: underline;
-  background-color: white;
   font-weight: bold;
   color: #088ac7;
+  background: white;
 }
+
 
 
 .imgcalendario{
@@ -121,7 +123,11 @@ footer{
 .redes{
   display: flex;
   margin: auto;
-  justify-content: end;
+  justify-content: center;
+}
+
+.MR{
+  font-weight: bold;
 }
 
 .redes .instagram, .facebook, .tiktok{
@@ -130,6 +136,36 @@ footer{
 .redes img{
   border-radius: 50px;
   justify-content: end;
+}
+
+.informacion{
+  display: flex;
+  margin: 10px 50px;
+}
+.direccion{
+  display: block;
+  width: 50%;
+  text-align: left;
+}
+.direccion h4{
+  font-weight: bold;
+  font-size: 22px;
+}
+.horario{
+  display: block;
+  width: 50%;
+  text-align: right;
+}
+.horario h6{
+  font-weight: bold;
+  font-size: 22px;
+  text-align: right;
+}
+.horario img{
+  display: flex;
+  width: 150px;
+  float: right;
+  padding: 10px 0px;
 }
 
 /* Estilos pagina contacto y formulario */
@@ -343,3 +379,12 @@ h3{
   display: flex;
   justify-content: space-evenly;
 }
+
+/* Estilos Marcas y Micas de Disenador en pagina de Inicio */
+
+.Marcas{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
