@@ -1,7 +1,10 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-
-
+const enviarMensajeWhatsApp = () => {
+    const mensaje = '¡Hola! Estoy interesado en agendar mi examen gratis.';
+    const url = `https://wa.me/+5213339900323/?text=${encodeURIComponent(mensaje)}`;
+    window.open(url, '_blank');
+};
 const HeaderNav = () => {
   return (
     <header className="header">
@@ -21,10 +24,13 @@ const HeaderNav = () => {
                     <NavLink to="/contacto">Lentes De Contacto</NavLink>
                 </li>
                 <li>
+                    <NavLink to="/contacto">Armazones</NavLink>
+                </li>
+                <li>
                     <NavLink to="/sabermas">Saber Mas...</NavLink>
                 </li>
                 <div className="imgcalendario"><img src="./images/calendario.png"></img></div>
-                <Link className="btnexamen" to="https://bit.ly/3t2KxE0">Agenda Examen Gratis!</Link>
+                <a className="btnexamen" href="#" onClick={enviarMensajeWhatsApp}>Agenda Examen Gratis!</a>
                 
             </ul>
         </nav>
