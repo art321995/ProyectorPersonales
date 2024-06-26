@@ -28,6 +28,7 @@ const SaberMas = () => {
   return (
     <div className="contacto">
       <h1>Saber Mas Sobre Nosotros</h1>
+      <h3>Eres una empresa y te gustaria que hicieramos examenes gratis en tus instalaciones, envianos tu informacion y nos pondremos en contacto contigo!</h3>
 
       <form onSubmit={formik.handleSubmit} className="formulario">
         <div className="form-group">

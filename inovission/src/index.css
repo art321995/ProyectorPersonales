@@ -168,6 +168,11 @@ footer{
   padding: 10px 0px;
 }
 
+.informacion .calle:hover{
+  text-decoration: underline;
+  color: #088ac7;
+}
+
 /* Estilos pagina contacto y formulario */
 
 form{
