@@ -8,19 +8,19 @@ const handleClick = () => {
 const PaquetesInicio = () => {
   return (
     <div className="contenedor-paquetes" >
-    <div>
+    <div className="PaqueteEco">
         <img src="src/components/paqutes/img/PaqEco.png"></img>
         <Link className="btnVerMas" to="/paquetes" onClick={handleClick}>Ver mas</Link >
     </div>
-    <div>
+    <div className="PaqueteEcomas">
         <img src="src/components/paqutes/img/PaqEco+.png"></img>
         <Link className="btnVerMas" to="/paquetes" onClick={handleClick}>Ver mas</Link>
     </div>
-    <div>
+    <div className="PaquetePlus">
         <img src="src/components/paqutes/img/PaqPlus.png"></img>
         <Link className="btnVerMas" to="/paquetes" onClick={handleClick}>Ver mas</Link>
     </div>
-    <div>
+    <div className="PaquetePremium">
         <img src="src/components/paqutes/img/PaqPremium.png"></img>
         <Link className="btnVerMas" to="/paquetes" onClick={handleClick}>Ver mas</Link>
     </div>
