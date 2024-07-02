@@ -1,5 +1,9 @@
+import {useRef} from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import emailjs from "@emailjs/browser";
+
+
 
 const validationSchema = Yup.object().shape({
     nombre: Yup.string().min(2,"El nombre es muy corto").max(50,"El nombre es muy largo").required("Campo Obligatorio"),
@@ -11,6 +15,20 @@ const validationSchema = Yup.object().shape({
 
 
 const SaberMas = () => {
+
+  const refForm = useRef ();
+
+  const handleSubmit = (event) =>{
+    event.preventDefault();
+    
+    const serviceId = "service_hvbshpf";
+    const templateId = "template_gifccpl";
+    const apikey= "VA5dpLKYARhtWPSe0";
+
+    emailjs.sendForm(serviceId, templateId, refForm.current, apikey)
+    .then((result) => console.log(result.text))
+    .catch((err) => console.error(err));
+   }
 
   const formik = useFormik({
     initialValues: {
@@ -30,7 +48,7 @@ const SaberMas = () => {
       <h1>Saber Mas Sobre Nosotros</h1>
       <h3>Eres una empresa y te gustaria que hicieramos examenes gratis en tus instalaciones, envianos tu informacion y nos pondremos en contacto contigo!</h3>
 
-      <form onSubmit={formik.handleSubmit} className="formulario">
+      <form ref={refForm} onSubmit={handleSubmit}  action="" className="formulario">
         <div className="form-group">
           <label htmlFor="nombre">Nombre(s)</label>
           <input type="text" id="nombre" name="nombre" value={formik.values.nombre} onChange={formik.handleChange} />
@@ -53,7 +71,7 @@ const SaberMas = () => {
         </div>
         <div className="form-group">
           <label htmlFor="comentario">Comentarios</label>
-          <input type="textarea" id="comentario" name="comentario" value={formik.values.comentario} onChange={formik.handleChange} />
+          <textarea id="comentario" name="comentario" value={formik.values.comentario} onChange={formik.handleChange} />
           <div className="error">{formik.errors.comentario && formik.touched.comentario ? formik.errors.comentario: "" }</div>
         </div>
 

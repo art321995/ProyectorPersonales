@@ -193,8 +193,7 @@ form label{
 }
 
 form input[type="text"],
-input[type="textarea"],
-input[type="email"]{
+input[type="email"], textarea{
   width: 100%;
   padding: 0.5rem;
   font-size: 1rem;
@@ -372,8 +371,8 @@ h3{
 }
 .ImagenFinal {
   display: flex;
+  margin: auto;
   justify-content: center;
-  align-items: center; 
   height: 100%;
 }
 
@@ -503,9 +502,10 @@ h3{
   }
   .PrimerosPaquetes, .SegundosPaquetes{
     margin: auto;
+    width: 85%;
   }
   .btnMeInteresa{
-    width: 100%;
+    width: 70%;
     font-size: 12px;
   }
   .PrimerosPaquetes .PaqueteEco, .SegundosPaquetes .PaquetePlus{
@@ -516,4 +516,29 @@ h3{
     width: 100%;
     margin-left: 30px;
   }
+
+   /* Estilos de la Pagina de Lentes de Contacto */
+
+   .Contacto{
+    padding: 0px 20px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .imgPrimerFila{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+  .imgUltimaFila{
+    gap: 10px; 
+  }
+  .contenedorimagenes{
+    flex: 1 1 200px;
+  text-align: center; 
+  }
+  .contenedorimagenes .btnMeInteresa{
+    width: 70%;
+  }
+
 }
