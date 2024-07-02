@@ -225,6 +225,23 @@ form .btnEnviarF:hover{
   color: white;
 }
 
+.success-message{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  color: #088ac7;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.error-message{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  color: rgb(242, 75, 75);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
 /* Estilos slider o Carrusel */
 
 .Carosul{
