@@ -426,6 +426,42 @@ h3{
   margin: 20px 50px;
 }
 
+/* Estilos de la pagina Armazones */
+.contenedirImgs{
+  display: flex;
+  margin: 20px;
+}
+
+.contenedirImgs img{
+  width: 90%;
+  margin: auto;
+  transition: 0.3s;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenedirImgs img:hover{
+  width: 100%;
+}
+
+.contenedirImgsultimo{
+  display: flex;
+  margin: 20px;
+}
+.contenedirImgsultimo img{
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 0.3s;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.contenedirImgsultimo img:hover{
+  width: 75%;
+}
+
 /* ----------------------- Media query para pantallas más pequeñas ------------------------ */
 @media (max-width: 1024px) {
   
@@ -500,11 +536,15 @@ h3{
 
   /* Estilos del contenedor lentes de marca de disenador  en pagina de Inicio */
   .Marcas{
-    display: block;
+    display: flex;
   }
   .Marcas img{
     margin: auto;
     display: flex;
+  }
+  .Marcas a img .vogue{
+    display: flex;
+    margin-top: 100px;
   }
 
   /* Estilos General del footer */
