@@ -8,10 +8,10 @@ const LentesMarca = () => {
   return (
     <div className="MarcasDisenador">
         <div className="Marcas">
-            <Link to="/armazones" onClick={handleClick}><img src="src/components/paqutes/img/vogue.png" className="vogue"></img></Link>
-            <img src="src/components/paqutes/img/Ray-Banpe.png"></img>
-            <img src="src/components/paqutes/img/Versace.png"></img>
-            <img src="src/components/paqutes/img/Carrera.png"></img>
+            <Link to="/armazones" onClick={handleClick}><img src="src/components/paqutes/img/vogue.png" alt="Vogue"></img></Link>
+            <Link to="/armazones" onClick={handleClick}><img src="src/components/paqutes/img/Ray-Banpe.png" alt="RayBan"></img></Link>
+            <Link to="/armazones" onClick={handleClick}><img src="src/components/paqutes/img/Versace.png" alt="Versace"></img></Link>
+            <Link to="/armazones" onClick={handleClick}><img src="src/components/paqutes/img/Carrera.png" alt="Carrera"></img></Link>
         </div>
     </div>
   )

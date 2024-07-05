@@ -542,10 +542,6 @@ h3{
     margin: auto;
     display: flex;
   }
-  .Marcas a img .vogue{
-    display: flex;
-    margin-top: 100px;
-  }
 
   /* Estilos General del footer */
   .informacion{
@@ -592,10 +588,31 @@ h3{
   }
   .contenedorimagenes{
     flex: 1 1 200px;
-  text-align: center; 
+    text-align: center; 
   }
   .contenedorimagenes .btnMeInteresa{
     width: 70%;
   }
+
+/* Estilos del formulario  */
+  form{
+    margin: 0px 10px;
+  }
+/* Estilos de la Pagina de Armazones  */
+.Armazones{
+  padding: 0px 10px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.contenedirImgs{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+.Img{
+  flex: 1 1 200px;
+  text-align: center; 
+}
 
 }
