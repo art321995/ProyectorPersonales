@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 const handleClick = () => {
-    // Desplazar la página hacia arriba
     window.scrollTo(0, 0);
 };
 

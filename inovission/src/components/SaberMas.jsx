@@ -55,7 +55,8 @@ const SaberMas = () => {
   return (
     <div className="contacto">
       <h1>Saber Mas Sobre Nosotros</h1>
-      <h3>Eres una empresa y te gustaria que hicieramos examenes gratis en tus instalaciones, envianos tu informacion y nos pondremos en contacto contigo!</h3>
+      <h3>Eres una empresa y te gustaria que hicieramos <strong>Examenes Gratis</strong>  en tus instalaciones...</h3>
+      <h3>Envianos tu informacion y nos pondremos en contacto contigo!</h3>
         
         {successMessage && <p className="success-message">{successMessage}</p>}
         {errorMessage && <p className="error-message">{errorMessage}</p>}

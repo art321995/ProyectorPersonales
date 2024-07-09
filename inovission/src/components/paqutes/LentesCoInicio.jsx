@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 const handleClick = () => {
-  // Desplazar la página hacia arriba
   window.scrollTo(0, 0);
 };
 
@@ -9,7 +8,7 @@ const LentesCoInicio = () => {
   return (
     <div className="contenedor-lentescontacto">
         <div className="imgPrincipal">
-            <img src="src/components/paqutes/img/LentesCoInicio.png" ></img>
+          <Link to="/contacto"><img src="src/components/paqutes/img/LentesCoInicio.png" ></img></Link>
         </div>
         <div className="imgSecundaria">
             <img src="src/components/paqutes/img/AirOptix.png"></img>

@@ -1,3 +1,4 @@
+import ArmazonesInicio from "./paqutes/ArmazonesInicio"
 import LentesCoInicio from "./paqutes/LentesCoInicio"
 import LentesMarca from "./paqutes/LentesMarca"
 import PaquetesInicio from "./paqutes/PaquetesInicio"
@@ -8,6 +9,7 @@ import CarouselSec from "./slider/CarruselSec"
 const Inicio = () => {
   return (
    <>
+   <h1>InnoVision</h1>
       <div className="Carosul">
         <Carousel />
       </div>
@@ -23,6 +25,10 @@ const Inicio = () => {
         <h2 className="TituloCarosulSec">Lentes de Contacto</h2>
       <div>
         <LentesCoInicio />
+      </div>
+      <h2 className="TituloCarosulSec">Armazones</h2>
+      <div>
+         <ArmazonesInicio />
       </div>
       <h2 className="TituloCarosulSec">Marcas de Diseñador</h2>
       <div>
