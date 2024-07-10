@@ -12,8 +12,8 @@ const MisRutas = () => {
 
     return(
         <BrowserRouter>
+        <div className="MensajePrincipal">Entrega de Lentes en 2 Dias Habiles! --- Aprovecha 3MSI con Tarjetas Participantes!</div>
             <HeaderNav />
-
             <section className="content">
                 <Routes>
                     <Route path="/" element={<Navigate to="/inicio" />} />

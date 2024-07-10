@@ -20,6 +20,15 @@ h1{
   font-weight: bold;
   margin: 15px auto;
 }
+.MensajePrincipal{
+  background: #3f9afb;
+  color: white;
+  text-align: center;
+  margin: auto;
+  height: 40px;
+  padding-top: 8px;
+  font-weight: bold;
+}
 
 /* Estilos del Menu completo */
 
@@ -491,7 +500,13 @@ h3{
 }
 
 /* ----------------------- Media query para pantallas más pequeñas ------------------------ */
+
 @media (max-width: 1024px) {
+
+  .MensajePrincipal{
+    padding: 0px;
+    height: 50px;
+  }
   
   /* Esttilos del Menu completo */
   
