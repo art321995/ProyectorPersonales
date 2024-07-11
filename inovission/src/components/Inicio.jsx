@@ -9,7 +9,7 @@ import CarouselSec from "./slider/CarruselSec"
 const Inicio = () => {
   return (
    <>
-   <h1>InnoVision</h1>
+    <h1>InnoVision</h1>
       <div className="Carosul">
         <Carousel />
       </div>

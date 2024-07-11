@@ -17,15 +17,15 @@ const Paquetes = () => {
           <div className="PrimerosPaquetes">
 
             <div className="PaqueteEco">
-              <img src="src/components/paqutes/img/PaqEco.png"></img>
-              <img src="src/components/paqutes/img/DesPaqEco.png"></img>
+              <img src="./img/PaqEco.png"></img>
+              <img src="./img/DesPaqEco.png"></img>
               <a className="btnMeInteresa" href="#" onClick={() => 
               handleClick('¡Hola! Estoy interesado en los lentes del Paquete Eco')}>Me interesa</a>
             </div>
 
             <div className="PaqueteEcomas">
-              <img src="src/components/paqutes/img/PaqEco+.png"></img>
-              <img src="src/components/paqutes/img/DesPaqEco+.png"></img>
+              <img src="./img/PaqEco+.png"></img>
+              <img src="./img/DesPaqEco+.png"></img>
               <a className="btnMeInteresa" href="#" onClick={() => 
               handleClick('¡Hola! Estoy interesado en los lentes del Paquete Eco+')}>Me interesa</a>
             </div>
@@ -34,15 +34,15 @@ const Paquetes = () => {
 
             <div className="SegundosPaquetes">
                 <div className="PaquetePlus">
-                  <img src="src/components/paqutes/img/PaqPlus.png"></img>
-                  <img src="src/components/paqutes/img/DesPaqPlus.png"></img>
+                  <img src="./img/PaqPlus.png"></img>
+                  <img src="./img/DesPaqPlus.png"></img>
                   <a className="btnMeInteresa" href="#" onClick={() => 
                   handleClick('¡Hola! Estoy interesado en los lentes del Paquete Plus')}>Me interesa</a>
                 </div>
 
                 <div className="PaquetePremium">
-                  <img src="src/components/paqutes/img/PaqPremium.png"></img>
-                  <img src="src/components/paqutes/img/DesPaqPrem.png"></img>
+                  <img src="./img/PaqPremium.png"></img>
+                  <img src="./img/DesPaqPrem.png"></img>
                   <a className="btnMeInteresa" href="#" onClick={() => 
                   handleClick('¡Hola! Estoy interesado en los lentes del Paquete Premium')}>Me interesa</a>
             </div>
@@ -50,7 +50,7 @@ const Paquetes = () => {
         </div>
           
         <div className="ImagenFinal">
-              <img src="src/components/paqutes/img/MejoraLentes.png"></img>
+              <img src="./img/MejoraLentes.png"></img>
         </div>
         
   

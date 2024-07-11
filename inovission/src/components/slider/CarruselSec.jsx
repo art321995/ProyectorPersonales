@@ -38,13 +38,13 @@ const CarouselSec = () => {
       
       <Slider {...settings}>
         <div>
-          <img src="src/components/slider/img/CarruselSec1.png" alt="slide-1" />
+          <img src="./src/components/slider/img/CarruselSec1.png" alt="slide-1" />
         </div>
         <div>
-          <img src="src/components/slider/img/CarruselSec2.png" alt="slide-2" />
+          <img src="./src/components/slider/img/CarruselSec2.png" alt="slide-2" />
         </div>
         <div>
-          <img src="src/components/slider/img/CarruselSec3.png" alt="slide-3" />
+          <img src="./src/components/slider/img/CarruselSec3.png" alt="slide-3" />
         </div>
         
       </Slider>
