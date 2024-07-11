@@ -36,16 +36,16 @@ const Carousel = () => {
       
       <Slider {...settings}>
         <div>
-          <img src="./src/components/slider/img/Carrusel1.png" alt="slide-1" />
+          <img src="./img/Carrusel1.png" alt="slide-1" />
         </div>
         <div>
-          <img src="./src/components/slider/img/Carrusel2.png" alt="slide-2" />
+          <img src="./img/Carrusel2.png" alt="slide-2" />
         </div>
         <div>
-          <img src="./src/components/slider/img/Carrusel3.png" alt="slide-3" />
+          <img src="./img/Carrusel3.png" alt="slide-3" />
         </div>
         <div>
-          <img src="./src/components/slider/img/Carrusel4.png" alt="slide-4" />
+          <img src="./img/Carrusel4.png" alt="slide-4" />
         </div>
       </Slider>
     </div>

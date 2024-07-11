@@ -9,8 +9,9 @@ const LentesCoInicio = () => {
   return (
     <div className="contenedor-lentescontacto">
       <div className="imgPrincipal">
-        <Link to="/contacto">
+        <Link to="/contacto" onClick={handleClick}>
           <img src="./img/LentesCoInicio.png" alt="Principal" />
+          <Link className="btnVerMas" to="/contacto" onClick={handleClick}>Ver más</Link>
         </Link>
       </div>
         <div className="imgSecundaria">
