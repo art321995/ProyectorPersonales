@@ -11,11 +11,10 @@ body{
   width: 100%;
   font-family: "Poppins", sans-serif;;
   background: white;
-  box-sizing: border-box;
 }
 .container{
   width: 100%;
-  height: 100%;
+  margin: 0 auto;
 }
 
 h1{
@@ -41,6 +40,7 @@ h1{
   background: white;
   display: flex;
   margin-bottom: 30px;
+  width: 100%;
 }
 .logo{
   display: flex;
@@ -86,8 +86,6 @@ header nav ul{
   color: #088ac7;
   background: white;
 }
-
-
 
 .imgcalendario{
   width: 25px;
@@ -259,17 +257,28 @@ form .btnEnviarF:hover{
 /* Estilos slider o Carrusel */
 
 .Carosul{
-  width: 96%;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+.Carosul img{
+  width: 100%;
   justify-content: center;
   margin: auto;
 }
 
-.CarosulSec {
-  width: 96%;
+.CarosulSec img{
+  width: 100%;
   justify-content: center;
   margin: auto;
   padding-top: 10px;
-  padding-left: 50px;
+}
+
+.CarosulSec {
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+  padding-top: 10px;
 }
 
 .TituloCarosulSec{
@@ -513,7 +522,10 @@ h3{
 /* -------------------------------------- Media query para pantallas Medianas  ------------------------------------------- */
 
 @media (max-width: 1024px) {
-
+  .container{
+    width: 100%;
+    margin: 0 auto;
+  }
   .MensajePrincipal{
     padding: 0px;
     height: 50px;
@@ -682,6 +694,9 @@ h3{
     font-weight: bold;
     margin: 10px auto;
   }
+  .MensajePrincipal{
+    font-weight: normal;
+  }
   .TituloCarosulSec{
     text-align: center;
     font-size: 25px;
@@ -710,10 +725,12 @@ h3{
     display: flex;
     margin: 00px 0px;
   }
+ 
   .Marcas{
     width: 380px;
+    margin: auto;
+    padding-top: 20px;
   }
-
 
   /* Estilos de la Pagina de Lentes de Contacto */
 
