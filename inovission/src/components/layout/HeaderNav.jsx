@@ -29,11 +29,10 @@ const HeaderNav = () => {
                 <li>
                     <NavLink to="/sabermas">Saber Mas...</NavLink>
                 </li>
-                <div className="imgcalendario"><img src="./images/calendario.png"></img></div>
-                <a className="btnexamen" href="#" onClick={enviarMensajeWhatsApp}>Agenda Examen Gratis!</a>
                 
             </ul>
         </nav>
+        <a className="btnexamen" href="#" onClick={enviarMensajeWhatsApp}> <img src="./images/calendario.png"></img> Agenda Examen Gratis!</a>
     </header>
     
     

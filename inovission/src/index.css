@@ -39,7 +39,7 @@ h1{
 .header{
   background: white;
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   width: 100%;
 }
 .logo{
@@ -47,15 +47,20 @@ h1{
   justify-content: center;
 }
 .logo img{
-  width: 150px;
+  width: 200px;
   margin-top: 15px;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-bottom: 10px;
   display: block;
-  margin-right: 170px;
 }
 section .content{
   width: 100%;
+}
+header nav{
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 header nav ul{
   display: flex;
@@ -64,11 +69,12 @@ header nav ul{
   list-style: none;
   margin: 5px;
   margin-top: 30px;
-  
+  width: 100%;
 }
 .header li{
   font-family: "Poppins", sans-serif;;
   text-transform: uppercase;
+  display: flex;
   padding: 10px 10px;
   font-size: 15px;
   margin-left: 15px;
@@ -77,6 +83,7 @@ header nav ul{
   color: #088ac7;
   transition-duration: 0.1s;
   border-radius: 15px;
+  
 }
 
 .header .active,
@@ -87,11 +94,12 @@ header nav ul{
   background: white;
 }
 
-.imgcalendario{
+.btnexamen img{
   width: 25px;
   height: 25px;
   display: flex;
-  margin-left: 150px;
+  justify-content: end;
+  border-radius: 3px;
 }
 .btnexamen{
   justify-content: end;
@@ -103,10 +111,12 @@ header nav ul{
   text-decoration: none; 
   font-size: 20px; 
   cursor: pointer;
-  border-radius: 8px; 
   transition-duration: 0.1s; 
   outline: none;
-  font-weight: bold
+  font-weight: bold;
+  margin-top: 30px;
+  width: 30%;
+  margin-right: 20px;
 }
 .btnexamen:hover{
   text-decoration: underline;
@@ -545,6 +555,7 @@ h3{
   }
   .logo img{
     margin: auto;
+    width: 150px;
   }
   .header nav ul {
     margin-top: 0px;
@@ -556,11 +567,12 @@ h3{
     margin: auto;
     height: 25px;
   }
-  .imgcalendario{
-    visibility: hidden;
-  }
+ 
   .btnexamen{
     color: rgb(242, 75, 75);
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
   }
 
    /* Estilos del contenedor de Paquetes  en pagina de Inicio */
