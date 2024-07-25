@@ -1,92 +1,87 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "./Proyecto1.png";
+import project2 from "./Proyecto2.png";
+import project3 from "./Proyecto3.png";
+import project4 from "./Proyecto4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. 
-                            With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and 
-                            Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is 
-                            to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional
-                            user experiences.`;
+export const HERO_CONTENT = `Soy un apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. 
+                             He perfeccionado mis habilidades en tecnologías front-end como HTML, CSS, JavaScritp y frameworks como React.
+                             Motivado para aprender y crecer en un entorno colaborativo y dinámico, aportando soluciones creativas y 
+                             efectivas a los desafíos de desarrollo web.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly 
-                          web applications. With 5 years of professional experience, I have worked with a variety of technologies, 
-                          including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a 
-                          deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and 
-                          adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver
-                          high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, 
-                          and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Soy un desarrollador Front-End Junior dedicado y versátil con pasión por crear soluciones eficientes y fáciles de usar 
+                           para aplicaciones web. Cuento con experiencia con variedad de tecnologías, incluidos React, Next.js, Node.js,
+                           SASS, Tailwind y una noción con MongoDB y Firebase. Mi viaje en el desarrollo web comenzó con una profunda 
+                           curiosidad por cómo funcionan las cosas, y ha evolucionado hasta convertirse en una carrera en la que me 
+                           esfuerzo continuamente por aprender y adaptarse a nuevos desafíos a lo cual e aplicado hasta el día de hoy 
+                           en proyectos personales. Prospero en entornos colaborativos y disfruto resolviendo problemas complejos para 
+                           entregar soluciones de alta calidad. Fuera de la programación, disfruto mantenerme activo y explorar nuevas
+                           tecnologías.`;
 
 export const EXPERIENCES = [
   {
     year: "2019 - Actualmente",
     role: "Fiels Service Engineer",
     company: "Honeywell",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. 
-                  Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project 
-                  requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: `Reparaciones a nivel de software y hardware en Hand Held - Reparaciones a nivel de software y hardware en Impresoras portátiles Bluetooth.
+                  Cierre de reportes en CRM - Validación de tickets - Validación de contratos de los equipos a reparar - 
+                  Cierre de reportes en SAP - Trabajo en Campo - Trabajo Remoto - Carga de versiones Android y Windows Mobile`,
+    technologies: ["SAP", "CRM", "Android", "Windows Mobile"],
   },
   {
     year: "2015 - 2019",
     role: "Ingeniero de Sopote e Implementaciones",
     company: "Pegasus Control",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend 
-                  developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend 
-                  performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    description: `Soporte Técnico a clientes - Implementador de Software y Hardware en campo - Implementador de Software vía remota - 
+                  Impartidor de Cursos - Soporte Remoto - Mantenimientos preventivo y correctivo a PC - Seguimiento a casos asignados - Ciclos de Pruebas -
+                  Visita de clientes  para obtener la necesidad y asesoramiento del tipo de solución que requiere - 
+                  Analizar los requerimientos de clientes para así diseñar soluciones específicas.`,
+    technologies: ["SGCWeb"],
   },
   {
-    year: "2013 - 2015",
+    year: "2014 - 2015",
     role: "Ingeniero de Sistemas",
     company: "La Bodega del Bebe",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful 
-                  APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on 
-                  schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    description: `Actualizar las versiones del sistema - Revision  y  elaboración de facturas, importe, proveedores, clientes y modelos - 
+                  Coordinar los mantenimientos a los equipos de cómputo de la empresa - Realizar los pedidos a los proveedores - 
+                  Elaborar reportes para las diferentes áreas de la empresa - Apoyar en la recepción de mercancía - 
+                  Mantener actualizada la información del sistema de la página web.`,
+    technologies: ["Punto Zero", "labodegadelbebe.mx"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Optica Innovision",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Se realizo la pagina web completa responsive",
+    technologies: ["vite", "HTML", "CSS", "React", "Node.js", "Formik", "Yup"],
   },
   {
-    title: "Task Management App",
+    title: "Lista de Super",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Se realiza App con modo oscuro o claro",
+    technologies: ["vite","HTML", "React", "Tailwind", "Node.js"],
   },
   {
-    title: "Portfolio Website",
+    title: "MisPelis",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Pagina web Sencilla para agregar, buscar y eliminar peliculas",
+    technologies: ["vite","HTML", "React", "CSS", "Node.js"],
   },
   {
-    title: "Blogging Platform",
+    title: "Login",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Pagina de Login conectada a Firebase",
+    technologies: ["vite","HTML", "React", "CSS", "Node.js", "firebase"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "3 de Junio #263, Col. San Rafel, Guadalajara, Jal.",
+  phoneNo: "33 16 11 01 06",
+  email: "art270112@gmail.com",
 };
