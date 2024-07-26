@@ -1,7 +1,4 @@
-import project1 from "./Proyecto1.png";
-import project2 from "./Proyecto2.png";
-import project3 from "./Proyecto3.png";
-import project4 from "./Proyecto4.png";
+
 
 export const HERO_CONTENT = `Soy un apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. 
                              He perfeccionado mis habilidades en tecnologías front-end como HTML, CSS, JavaScritp y frameworks como React.
@@ -52,28 +49,28 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Optica Innovision",
-    image: project1,
+    /*image: project1,*/
     description:
       "Se realizo la pagina web completa responsive",
     technologies: ["vite", "HTML", "CSS", "React", "Node.js", "Formik", "Yup"],
   },
   {
     title: "Lista de Super",
-    image: project2,
+    /*image: project2,*/
     description:
       "Se realiza App con modo oscuro o claro",
     technologies: ["vite","HTML", "React", "Tailwind", "Node.js"],
   },
   {
     title: "MisPelis",
-    image: project3,
+    /*image: project3,*/
     description:
       "Pagina web Sencilla para agregar, buscar y eliminar peliculas",
     technologies: ["vite","HTML", "React", "CSS", "Node.js"],
   },
   {
     title: "Login",
-    image: project4,
+    /*image: project4,*/
     description:
       "Pagina de Login conectada a Firebase",
     technologies: ["vite","HTML", "React", "CSS", "Node.js", "firebase"],
