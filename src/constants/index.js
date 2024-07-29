@@ -1,4 +1,7 @@
-
+import project1 from "../assets/img/Proyecto1.jpg";
+import project2 from "../assets/img/Proyecto2.jpg";
+import project3 from "../assets/img/Proyecto3.jpg";
+import project4 from "../assets/img/Proyecto4.jpg";
 
 export const HERO_CONTENT = `Soy un apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. 
                              He perfeccionado mis habilidades en tecnologías front-end como HTML, CSS, JavaScritp y frameworks como React.
@@ -19,7 +22,7 @@ export const EXPERIENCES = [
     year: "2019 - Actualmente",
     role: "Fiels Service Engineer",
     company: "Honeywell",
-    description: `Reparaciones a nivel de software y hardware en Hand Held - Reparaciones a nivel de software y hardware en Impresoras portátiles Bluetooth.
+    description: `Reparaciones a nivel de software y hardware en Hand Held - Reparaciones a nivel de software y hardware en Impresoras portátiles Bluetooth -
                   Cierre de reportes en CRM - Validación de tickets - Validación de contratos de los equipos a reparar - 
                   Cierre de reportes en SAP - Trabajo en Campo - Trabajo Remoto - Carga de versiones Android y Windows Mobile`,
     technologies: ["SAP", "CRM", "Android", "Windows Mobile"],
@@ -49,36 +52,36 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Optica Innovision",
-    /*image: project1,*/
-    description:
-      "Se realizo la pagina web completa responsive",
+    image: project1,
+    description:"Se realizo pagina web completa responsive",
     technologies: ["vite", "HTML", "CSS", "React", "Node.js", "Formik", "Yup"],
+    url:"https://opticainnovision.com/",
   },
   {
     title: "Lista de Super",
-    /*image: project2,*/
-    description:
-      "Se realiza App con modo oscuro o claro",
+    image: project2,
+    description:"Se realiza App con modo oscuro o claro",
     technologies: ["vite","HTML", "React", "Tailwind", "Node.js"],
+    url: "https://lista-super-aem1508.netlify.app/",
   },
   {
     title: "MisPelis",
-    /*image: project3,*/
-    description:
-      "Pagina web Sencilla para agregar, buscar y eliminar peliculas",
+    image: project3,
+    description:"Pagina web Sencilla para agregar, buscar y eliminar peliculas",
     technologies: ["vite","HTML", "React", "CSS", "Node.js"],
+    url:"https://mispelisarturo1508.netlify.app/",
   },
   {
     title: "Login",
-    /*image: project4,*/
-    description:
-      "Pagina de Login conectada a Firebase",
+    image: project4,
+    description:"Pagina de Login conectada a Firebase",
     technologies: ["vite","HTML", "React", "CSS", "Node.js", "firebase"],
+    url:"https://login-with-firebase-art08.netlify.app/",
   },
 ];
 
 export const CONTACT = {
   address: "3 de Junio #263, Col. San Rafel, Guadalajara, Jal.",
-  phoneNo: "33 16 11 01 06",
+  phone: "+52 33 16 11 01 06",
   email: "art270112@gmail.com",
 };
