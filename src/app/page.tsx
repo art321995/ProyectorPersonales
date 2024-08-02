@@ -1,8 +1,16 @@
-import React from 'react'
+import FeaturedProperties from '@/components/FeaturedProperties';
+import Hero from '@/components/Hero';
+import HowItWorks from '@/components/HowItWorks';
+import Navbar from '@/components/Navbar';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <Navbar />
+      <Hero />
+      <HowItWorks />
+      <FeaturedProperties />
+    </>
   )
 }
 
