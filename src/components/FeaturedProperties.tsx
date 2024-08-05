@@ -5,7 +5,7 @@ import { Star } from "lucide-react";
 
 const FeaturedProperties = () => {
   return (
-    <div className="container mx-auto border-b py-6 pb-10">
+    <div className="container mx-auto border-b py-6 pb-10" id="Propiedades">
         <h2 className="text-center text-3xl tracking-tighter sm:text-4xl lg:text-5xl">Propiedades Destacadas</h2>
         <div className="flex flex-wrap">
             {FEATURED_PROPERTIES.map((property, index) => ( 

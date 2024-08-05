@@ -1,10 +1,10 @@
 export const NAV_LINKS = [
-    { title: "Como Trabajamos", url: "#" },
-    { title: "Propiedades Destacadas", url: "#" },
-    { title: "Servicios", url: "#" },
-    { title: "Acerda de", url: "#" },
-    { title: "Reseñas", url: "#" },
-    { title: "Preguntas Frecuentes", url: "#" },
+    { title: "Como Trabajamos", url: "Trabajo" },
+    { title: "Propiedades Destacadas", url: "Propiedades" },
+    { title: "Servicios", url: "Servicios" },
+    { title: "Acerda de", url: "AcercaDe" },
+    { title: "Reseñas", url: "Reseñas" },
+    { title: "Preguntas Frecuentes", url: "Preguntas" },
   ];
   
   export const HERO = {
@@ -120,185 +120,185 @@ export const NAV_LINKS = [
     },
   ];
   
-  export const SERVICES_TEXT = `Buying: We offer personalized assistance to help you find the perfect property to suit your needs and budget. Our agents will guide you through the entire buying process, from property selection to closing the deal. Selling: When it comes to selling your property, our expert agents will create a customized marketing strategy to attract potential buyers and get you the best possible price.`;
+  export const SERVICES_TEXT = `Ofrecemos asistencia personalizada para ayudarle a encontrar la propiedad perfecta que se adapte a sus necesidades y presupuesto. Nuestros agentes lo guiarán durante todo el proceso de compra, desde la selección de la propiedad hasta el cierre del trato. Venta: Cuando se trata de vender su propiedad, nuestros agentes expertos crearán una estrategia de marketing personalizada para atraer compradores potenciales y conseguirle el mejor precio posible.`;
   
-  export const ABOUT_US_TEXT = `At RealEs, we are committed to providing exceptional real estate services to our clients. With years of experience in the industry, our team of expert agents is dedicated to helping you achieve your real estate goals. Whether you're buying, selling, renting, or looking for property management services, we're here to assist you every step of the way. Our mission is to make your real estate experience as seamless and stress-free as possible. Contact us today to learn more about how we can help you with all your real estate needs.`;
+  export const ABOUT_US_TEXT = `En CasasMX, estamos comprometidos a brindar servicios inmobiliarios excepcionales a nuestros clientes. Con años de experiencia en la industria, nuestro equipo de agentes expertos se dedica a ayudarlo a alcanzar sus objetivos inmobiliarios. Ya sea que esté comprando, vendiendo, alquilando o buscando servicios de administración de propiedades, estamos aquí para ayudarlo en cada paso del camino. Nuestra misión es hacer que su experiencia inmobiliaria sea lo más fluida y libre de estrés posible. Contáctenos hoy para obtener más información sobre cómo podemos ayudarlo con todas sus necesidades inmobiliarias.`;
   
   export const TESTIMONIALS = [
     {
-      name: "Jane Doe",
-      instagram: "@jane.doe",
+      name: "Juan Contreras",
+      instagram: "@jc.contreras",
       feedback:
-        "Amazing service! The team went above and beyond to find me the perfect home. I couldn't be happier!",
-      city_country: "New York, USA",
+        "¡Servicio increíble! El equipo hizo todo lo posible para encontrarme el hogar perfecto. ¡No podría estar más feliz!",
+      city_country: "Ciudad De Mexico",
       image: "/profile-pictures/user1.jpg",
     },
     {
-      name: "John Smith",
-      instagram: "@john.smith",
+      name: "Ramiro Romero",
+      instagram: "@R.Romero",
       feedback:
-        "I was impressed by their professionalism and dedication. Highly recommend their services! I'm so grateful for their expertise.",
-      city_country: "London, UK",
-      image: "/profile-pictures/user2.jpg",
+        "Me impresionó su profesionalismo y dedicación. ¡Recomiendo altamente sus servicios! Estoy muy agradecido por su experiencia.",
+      city_country: "Monterrey, N.L.",
+      image: "/profile-pictures/user3.jpg",
     },
     {
       name: "Maria Garcia",
       instagram: "@maria.g",
       feedback:
-        "Excellent experience working with them. They made the whole process smooth and stress-free.",
-      city_country: "Madrid, Spain",
-      image: "/profile-pictures/user3.jpg",
+        "Excelente experiencia trabajando con ellos. Hicieron que todo el proceso fuera fluido y sin estrés.",
+      city_country: "Culiacan, Sin.",
+      image: "/profile-pictures/user2.jpg",
     },
     {
-      name: "Ahmed Hassan",
-      instagram: "@ahmed.hassan",
+      name: "Manuel Ortiz",
+      instagram: "@manuel.ortiz",
       feedback:
-        "Outstanding service. They listened to my needs and found me the perfect property.",
-      city_country: "Cairo, Egypt",
+        "Servicio excepcional. Escucharon mis necesidades y me encontraron la propiedad perfecta.",
+      city_country: "Huatulco, Oax.",
       image: "/profile-pictures/user4.jpg",
     },
     {
-      name: "Emily Wang",
-      instagram: "@emily.w",
+      name: "Emilio Gutierrez",
+      instagram: "@emilio.gtz",
       feedback:
-        "Exceptional service and attention to detail. I would definitely use their services again.",
-      city_country: "Shanghai, China",
+        "Servicio excepcional y atención al detalle. Definitivamente usaría sus servicios nuevamente.",
+      city_country: "La Paz, B.J.S.",
       image: "/profile-pictures/user5.jpg",
     },
     {
-      name: "Luca Rossi",
-      instagram: "@luca.r",
+      name: "Rosi Morales",
+      instagram: "@rossi.m",
       feedback:
-        "Professional and knowledgeable team. They helped me find my dream home in Milan.",
-      city_country: "Milan, Italy",
+        "Equipo profesional y conocedor. Me ayudaron a encontrar la casa de mis sueños en Milán.",
+      city_country: "Guadalajara, Jal.",
       image: "/profile-pictures/user6.jpg",
     },
     {
-      name: "Sarah Johnson",
-      instagram: "@sarah.j",
+      name: "Jesus Torres",
+      instagram: "@jesus.ta",
       feedback:
-        "I'm so grateful for their expertise. They made the whole buying process a breeze.",
-      city_country: "Sydney, Australia",
+        "Estoy muy agradecido por su experiencia. Hicieron que todo el proceso de compra fuera muy sencillo.",
+      city_country: "Manzanillo, Col.",
       image: "/profile-pictures/user7.jpg",
     },
     {
-      name: "Juan Perez",
-      instagram: "@juan.p",
+      name: "Eduardo Perez",
+      instagram: "@e.perez",
       feedback:
-        "Impressive service. They found me a property that exceeded my expectations.",
-      city_country: "Mexico City, Mexico",
+        "Impresionante servicio. Me encontraron una propiedad que superó mis expectativas.",
+      city_country: "Cancun, QRoo.",
       image: "/profile-pictures/user8.jpg",
     },
   ];
   
   export const FAQ = [
     {
-      question: "Can I schedule a property viewing?",
+      question: "¿Puedo programar una visita a la propiedad?",
       answer:
-        "Yes, you can schedule a property viewing by contacting our customer service team. They will assist you in arranging a convenient time for the viewing.",
+        "Sí, puede programar una visita a la propiedad comunicándose con nuestro equipo de atención al cliente. Ellos le ayudarán a concertar un horario conveniente para la visita.",
       value: "faq-1",
     },
     {
-      question: "What is the process for renting a property?",
+      question: "¿Cuál es el proceso para alquilar una propiedad?",
       answer:
-        "To rent a property, you will need to fill out a rental application form and provide necessary documentation such as proof of income, identification, and references. Once your application is approved, you can sign the lease agreement and move into the property.",
+        "Para alquilar una propiedad, deberá completar un formulario de solicitud de alquiler y proporcionar la documentación necesaria, como comprobante de ingresos, identificación y referencias. Una vez que se apruebe su solicitud, podrá firmar el contrato de arrendamiento y mudarse a la propiedad.",
       value: "faq-2",
     },
     {
-      question: "Do you offer property management services?",
+      question: "¿Ofrecen servicios de administración de propiedades?",
       answer:
-        "Yes, we offer property management services for landlords and property owners. Our services include tenant screening, rent collection, maintenance, and more.",
+        "Sí, ofrecemos servicios de administración de propiedades para propietarios y propietarios. Nuestros servicios incluyen selección de inquilinos, cobro de alquileres, mantenimiento y más.",
       value: "faq-3",
     },
     {
-      question: "What types of properties do you have available?",
+      question: "¿Qué tipos de propiedades tienes disponibles?",
       answer:
-        "We have a variety of properties available, including apartments, houses, condos, and commercial properties. You can browse our listings online or contact us for more information.",
+        "Tenemos una variedad de propiedades disponibles, incluidos apartamentos, casas, condominios y propiedades comerciales. Puede explorar nuestros listados en línea o contactarnos para obtener más información.",
       value: "faq-4",
     },
     {
-      question: "How can I list my property for sale?",
+      question: "¿Cómo puedo poner mi propiedad a la venta?",
       answer:
-        "To list your property for sale, you can contact our real estate agents who will assist you in the listing process. They will help you market your property to potential buyers and negotiate the sale.",
+        "Para poner su propiedad a la venta, puede comunicarse con nuestros agentes inmobiliarios quienes lo ayudarán en el proceso de venta. Le ayudarán a comercializar su propiedad entre compradores potenciales y a negociar la venta.",
       value: "faq-5",
     },
     {
-      question: "Do you offer financing options for property purchases?",
+      question: "¿Ofrecen opciones de financiación para la compra de propiedades?",
       answer:
-        "Yes, we work with various financial institutions to offer financing options for property purchases. Our agents can help you explore these options and choose the best one for your needs.",
+        "Sí, trabajamos con varias instituciones financieras para ofrecer opciones de financiación para la compra de propiedades. Nuestros agentes pueden ayudarlo a explorar estas opciones y elegir la mejor para sus necesidades.",
       value: "faq-6",
     },
     {
-      question: "What are your fees for selling a property?",
+      question: "¿Cuáles son sus honorarios por vender una propiedad?",
       answer:
-        "Our fees for selling a property vary depending on the type of property and the services required. You can discuss your needs with our agents, and they will provide you with a detailed breakdown of the fees involved.",
+        "Nuestros honorarios por vender una propiedad varían según el tipo de propiedad y los servicios requeridos. Puede discutir sus necesidades con nuestros agentes y ellos le proporcionarán un desglose detallado de las tarifas involucradas.",
       value: "faq-7",
     },
     {
-      question: "How long does it take to sell a property?",
+      question: "¿Cuánto tiempo se tarda en vender una propiedad?",
       answer:
-        "The time it takes to sell a property can vary depending on market conditions, location, and other factors. Our agents will work with you to develop a marketing strategy to sell your property as quickly as possible.",
+        "El tiempo que lleva vender una propiedad puede variar según las condiciones del mercado, la ubicación y otros factores. Nuestros agentes trabajarán con usted para desarrollar una estrategia de marketing para vender su propiedad lo más rápido posible.",
       value: "faq-8",
     },
     {
-      question: "What is your refund policy?",
+      question: "¿Cuál es su política de reembolso?",
       answer:
-        "Our refund policy varies depending on the service provided. Please contact our customer service team for more information about our refund policy.",
+        "Nuestra política de reembolso varía dependiendo del servicio prestado. Comuníquese con nuestro equipo de atención al cliente para obtener más información sobre nuestra política de reembolso.",
       value: "faq-9",
     },
     {
       question:
-        "Can I rent out my property if I am still paying off the mortgage?",
+        "¿Puedo alquilar mi propiedad si todavía estoy pagando la hipoteca?",
       answer:
-        "Yes, you can rent out your property if you are still paying off the mortgage. However, you will need to inform your mortgage lender and ensure that your mortgage agreement allows for rental income.",
+        "Sí, puedes alquilar tu propiedad si aún estás pagando la hipoteca. Sin embargo, deberá informar a su prestamista hipotecario y asegurarse de que su contrato hipotecario permita ingresos por alquiler.",
       value: "faq-10",
     },
     {
-      question: "Do you offer short-term rentals?",
+      question: "¿Ofrecen alquileres a corto plazo?",
       answer:
-        "Yes, we offer short-term rentals for vacation homes, corporate housing, and other purposes. You can browse our listings or contact us for more information about available short-term rental properties.",
+        "Sí, ofrecemos alquileres a corto plazo para casas de vacaciones, viviendas corporativas y otros fines. Puede explorar nuestros listados o contactarnos para obtener más información sobre las propiedades de alquiler a corto plazo disponibles.",
       value: "faq-11",
     },
     {
-      question: "How can I get started with buying or selling a property?",
+      question: "¿Cómo puedo empezar a comprar o vender una propiedad?",
       answer:
-        "To get started with buying or selling a property, you can contact our customer service team or visit our office to speak with one of our agents. They will guide you through the process and answer any questions you may have.",
+        "Para comenzar a comprar o vender una propiedad, puede comunicarse con nuestro equipo de atención al cliente o visitar nuestra oficina para hablar con uno de nuestros agentes. Ellos lo guiarán a través del proceso y responderán cualquier pregunta que pueda tener.",
       value: "faq-12",
     },
   ];
   
   export const FOOTER = {
-    description: `Your Real Estate Company is dedicated to helping you find the perfect home. Whether you're looking to buy, sell, or rent, our team of experienced professionals is here to guide you every step of the way.`,
-    copyright: `Copyright © 2024 Real Estate. All Rights Reserved `,
+    description: `Su Compañía de Bienes Raíces se dedica a ayudarlo a encontrar la casa perfecta. Ya sea que esté buscando comprar, vender o alquilar, nuestro equipo de profesionales experimentados está aquí para guiarlo en cada paso del camino.`,
+    copyright: `Copyright © 2024 CasasMX. Create by Arturo Esqueda M.`,
     categories: [
       {
-        name: "Buy",
+        name: "Compra",
         links: [
-          { title: "Search Properties", url: "#" },
-          { title: "Mortgage Calculator", url: "#" },
-          { title: "Buyer's Guide", url: "#" },
-          { title: "Home Buying Tips", url: "#" },
-          { title: "FAQs for Buyers", url: "#" },
+          { title: "Buscar Propiedades", url: "#" },
+          { title: "Calculadora de hipoteca", url: "#" },
+          { title: "Guía de compradores", url: "#" },
+          { title: "Consejos para comprar una vivienda", url: "#" },
+          { title: "Preguntas frecuentes para compradores", url: "#" },
         ],
       },
       {
-        name: "Sell",
+        name: "Venta",
         links: [
-          { title: "List Your Property", url: "#" },
-          { title: "Seller's Guide", url: "#" },
-          { title: "Home Selling Tips", url: "#" },
-          { title: "Home Evaluation", url: "#" },
-          { title: "FAQs for Sellers", url: "#" },
+          { title: "Lista tu propiedad", url: "#" },
+          { title: "Guía del vendedor", url: "#" },
+          { title: "Consejos para vender viviendas", url: "#" },
+          { title: "Evaluación del hogar", url: "#" },
+          { title: "Preguntas frecuentes para vendedores", url: "#" },
         ],
       },
       {
-        name: "Rent",
+        name: "Renta",
         links: [
-          { title: "Search Rental Properties", url: "#" },
-          { title: "Rental Guide", url: "#" },
-          { title: "Renter's Insurance", url: "#" },
-          { title: "Tenant Rights", url: "#" },
-          { title: "FAQs for Renters", url: "#" },
+          { title: "Buscar propiedades de alquiler", url: "#" },
+          { title: "Guía de alquiler", url: "#" },
+          { title: "El seguro para inquilinos", url: "#" },
+          { title: "Derechos del inquilino", url: "#" },
+          { title: "Preguntas frecuentes para inquilinos", url: "#" },
         ],
       },
     ],
