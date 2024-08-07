@@ -2,6 +2,7 @@ import project1 from "../assets/img/Proyecto1.jpg";
 import project2 from "../assets/img/Proyecto2.jpg";
 import project3 from "../assets/img/Proyecto3.jpg";
 import project4 from "../assets/img/Proyecto4.jpg";
+import project5 from "../assets/img/Proyecto5.png";
 
 export const HERO_CONTENT = `Soy un apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. 
                              He perfeccionado mis habilidades en tecnologías front-end como HTML, CSS, JavaScritp y frameworks como React.
@@ -20,7 +21,7 @@ export const ABOUT_TEXT = `Soy un desarrollador Front-End Junior dedicado y vers
 export const EXPERIENCES = [
   {
     year: "2019 - Actualmente",
-    role: "Fiels Service Engineer",
+    role: "Field Service Engineer",
     company: "Honeywell",
     description: `Reparaciones a nivel de software y hardware en Hand Held - Reparaciones a nivel de software y hardware en Impresoras portátiles Bluetooth -
                   Cierre de reportes en CRM - Validación de tickets - Validación de contratos de los equipos a reparar - 
@@ -56,6 +57,13 @@ export const PROJECTS = [
     description:"Se realizo pagina web completa responsive",
     technologies: ["vite", "HTML", "CSS", "React", "Node.js", "Formik", "Yup"],
     url:"https://opticainnovision.com/",
+  },
+  {
+    title: "Inmobiliaria CasasMX",
+    image: project5,
+    description:"Se realizo la pagina con NextJs y Tailwind",
+    technologies: ["NextJs", "Tailwind", "React", "shadcn/ui"],
+    url:"https://inmobiliariaaem08.netlify.app/",
   },
   {
     title: "Lista de Super",
