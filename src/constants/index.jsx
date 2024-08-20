@@ -13,7 +13,8 @@ import italian from "../assets/italian.jpeg";
 import japanese from "../assets/japanese.jpeg";
 import indian from "../assets/indian.jpeg";
 
-import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
+import { FaLinkedin, FaGithub } from "react-icons/fa6";
+import { SiNetlify } from "react-icons/si";
 
 export const LINKS = [
   { text: "Platillo", targetId: "dishes" },
@@ -117,23 +118,23 @@ export const REVIEW = {
 };
 
 export const CONTACT = [
-  { key: "address", value: "Direccion: Plaza Corporativa, P.º de los Virreyes 45-Local V16, Puerta de Hierro, 45116 Zapopan, Jal. " },
-  { key: "phone", value: "Telefono: +52 33 3113 2146" },
-  { key: "email", value: "Email: contact@restaurant.com" },
+  { key: "address", value: "Direccion: C. 3 de Junio #263, Guadalajara, Jal. " },
+  { key: "phone", value: "Telefono: +52 33 1611 0106" },
+  { key: "email", value: "Email: art270112@gmail.com" },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
+    href: "https://www.linkedin.com/in/arturo-esqueda-morales-3feb1995",
+    icon: <FaLinkedin fontSize={30} className="hover:opacity-80" />,
   },
 
   {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
+    href: "https://github.com/art321995",
+    icon: <FaGithub fontSize={30} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
+    href: "https://app.netlify.com/teams/art321995",
+    icon: <SiNetlify fontSize={30} className="hover:opacity-80" />,
   },
 ];
