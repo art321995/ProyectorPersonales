@@ -1,12 +1,20 @@
+import CartaPlatillos from "./components/CartaPlatillos";
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Mission from "./components/Mission";
+
 
 function App() {
   
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </>
+    <main className="overflow-hidden text-neutral-200 antialiased">
+      <HeroSection />
+      <Navbar />
+      <CartaPlatillos />
+      <About />
+      <Mission />
+    </main>
   )
 }
 

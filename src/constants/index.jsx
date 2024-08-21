@@ -17,7 +17,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa6";
 import { SiNetlify } from "react-icons/si";
 
 export const LINKS = [
-  { text: "Platillo", targetId: "dishes" },
+  { text: "Platillos", targetId: "dishes" },
   { text: "Acerca De", targetId: "about" },
   { text: "Mission", targetId: "mission" },
   { text: "Expertis", targetId: "expertise" },
@@ -43,8 +43,8 @@ export const DISHES = [
   },
   {
     image: dish4,
-    title: "Rollo de Sushi",
-    description: "Surtido de mariscos y verduras envueltos en algas y arroz",
+    title: "Sándwich",
+    description: "Relleno de pechuga de Pavo con espinacas y un huevo cocido",
   },
   {
     image: dish5,
@@ -73,8 +73,8 @@ export const DISHES = [
   },
   {
     image: dish10,
-    title: "Tiramisu",
-    description: "Postre italiano con capas de galletas bañadas en café y mascarpone",
+    title: "Ramen",
+    description: "Ramen con huevo cocido con cebollin y chile pikin",
   },
 ];
 
