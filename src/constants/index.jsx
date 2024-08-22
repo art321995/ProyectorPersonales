@@ -126,15 +126,15 @@ export const CONTACT = [
 export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://www.linkedin.com/in/arturo-esqueda-morales-3feb1995",
-    icon: <FaLinkedin fontSize={30} className="hover:opacity-60" />,
+    icon: <FaLinkedin fontSize={30} className="hover:opacity-70" />,
   },
 
   {
     href: "https://github.com/art321995",
-    icon: <FaGithub fontSize={30} className="hover:opacity-60" />,
+    icon: <FaGithub fontSize={30} className="hover:opacity-70" />,
   },
   {
     href: "https://app.netlify.com/teams/art321995",
-    icon: <SiNetlify fontSize={30} className="hover:opacity-60" />,
+    icon: <SiNetlify fontSize={30} className="hover:opacity-70" />,
   },
 ];
