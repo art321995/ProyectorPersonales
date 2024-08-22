@@ -79,7 +79,7 @@ export const DISHES = [
 ];
 
 export const ABOUT = {
-  header: "¡Nos encanta cocinar!",
+  header: "Nos encanta cocinar!",
   content:
     "En Restaura creemos que la buena comida va más allá del sabor; cuenta una historia de dedicación y creatividad. Desde las creaciones exclusivas de nuestro chef hasta nuestro atento servicio, cada detalle está cuidado para garantizar que su visita sea nada menos que excepcional. Ya sea que esté saboreando nuestro famoso Tikka Kebab o explorando nuestro variado menú inspirado en sabores globales, cada plato es una celebración del sabor y la innovación. Únase a nosotros en un viaje culinario donde cada bocado deja una impresión duradera. Experimente Restaura, donde cada comida es una obra maestra."};
 
@@ -126,15 +126,15 @@ export const CONTACT = [
 export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://www.linkedin.com/in/arturo-esqueda-morales-3feb1995",
-    icon: <FaLinkedin fontSize={30} className="hover:opacity-80" />,
+    icon: <FaLinkedin fontSize={30} className="hover:opacity-60" />,
   },
 
   {
     href: "https://github.com/art321995",
-    icon: <FaGithub fontSize={30} className="hover:opacity-80" />,
+    icon: <FaGithub fontSize={30} className="hover:opacity-60" />,
   },
   {
     href: "https://app.netlify.com/teams/art321995",
-    icon: <SiNetlify fontSize={30} className="hover:opacity-80" />,
+    icon: <SiNetlify fontSize={30} className="hover:opacity-60" />,
   },
 ];
