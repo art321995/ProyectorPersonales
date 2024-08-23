@@ -3,6 +3,7 @@ import project2 from "../assets/img/Proyecto2.jpg";
 import project3 from "../assets/img/Proyecto3.jpg";
 import project4 from "../assets/img/Proyecto4.jpg";
 import project5 from "../assets/img/Proyecto5.png";
+import project6 from "../assets/img/Proyecto6.jpg";
 
 export const HERO_CONTENT = `Soy un apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. 
                              He perfeccionado mis habilidades en tecnologías front-end como HTML, CSS, JavaScritp y frameworks como React.
@@ -54,35 +55,42 @@ export const PROJECTS = [
   {
     title: "Optica Innovision",
     image: project1,
-    description:"Se realizo pagina web completa responsive",
-    technologies: ["vite", "HTML", "CSS", "React", "Node.js", "Formik", "Yup"],
+    description:"Sitio Oficial de Optica Innovision",
+    technologies: ["vite", "HTML", "CSS", "React", "Node.js", "Formik", "Yup", "Responsive"],
     url:"https://opticainnovision.com/",
   },
   {
     title: "Inmobiliaria CasasMX",
     image: project5,
-    description:"Se realizo la pagina con NextJs y Tailwind",
-    technologies: ["NextJs", "Tailwind", "React", "shadcn/ui"],
+    description:"Sitio Creado para una Inmobiliaria",
+    technologies: ["NextJs", "Tailwind", "React", "shadcn/ui", "TypeScript", "Responsive"],
     url:"https://inmobiliariaaem08.netlify.app/",
   },
   {
     title: "Lista de Super",
     image: project2,
-    description:"Se realiza App con modo oscuro o claro",
-    technologies: ["vite","HTML", "React", "Tailwind", "Node.js"],
+    description:"Sitio creado para uso personal como un TODOList",
+    technologies: ["vite", "HTML", "React", "Tailwind", "Node.js", "Responsive"],
     url: "https://lista-super-aem1508.netlify.app/",
+  },
+  {
+    title: "Restaurante MX",
+    image: project6,
+    description:"Sitio creado para un resturante",
+    technologies: ["vite", "React", "Tailwind", "Node.js", "Responsive"],
+    url: "https://restaurantemxaem08.netlify.app/",
   },
   {
     title: "MisPelis",
     image: project3,
-    description:"Pagina web Sencilla para agregar, buscar y eliminar peliculas",
+    description:"Sitio web Sencilla para agregar, buscar y eliminar peliculas",
     technologies: ["vite","HTML", "React", "CSS", "Node.js"],
     url:"https://mispelisarturo1508.netlify.app/",
   },
   {
     title: "Login",
     image: project4,
-    description:"Pagina de Login conectada a Firebase",
+    description:"Sitio de Login conectada a Firebase",
     technologies: ["vite","HTML", "React", "CSS", "Node.js", "firebase"],
     url:"https://login-with-firebase-art08.netlify.app/",
   },
