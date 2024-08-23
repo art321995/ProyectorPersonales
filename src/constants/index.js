@@ -5,8 +5,8 @@ import project4 from "../assets/img/Proyecto4.jpg";
 import project5 from "../assets/img/Proyecto5.png";
 import project6 from "../assets/img/Proyecto6.jpg";
 
-export const HERO_CONTENT = `Soy un apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. 
-                             He perfeccionado mis habilidades en tecnologías front-end como HTML, CSS, JavaScritp y frameworks como React.
+export const HERO_CONTENT = `Apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. 
+                             He perfeccionado mis habilidades en tecnologías Front-End como HTML, CSS, JavaScritp y frameworks como React.
                              Motivado para aprender y crecer en un entorno colaborativo y dinámico, aportando soluciones creativas y 
                              efectivas a los desafíos de desarrollo web.`;
 
