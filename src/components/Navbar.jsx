@@ -9,22 +9,22 @@ const Navbar = () => {
     }
 
   return (
-    <nav className="Absolute top-4  z-50 flex w-full flex-col items-center justify-center">
+    <nav className="relative top-4  z-50 flex w-full flex-col items-center justify-center">
       <div className="flex w-full items-center justify-between overflow-y-hidden p-4 backdrop-blur-lg lg:m-2 lg:w-[50rem]  lg:shadow-lg">
         <div className="hidden space-x-6 lg:flex"> 
-        <a href="#" className="hover:opacity-50">Inicio</a> 
+        <a href="#" className="hover:opacity-50 hover:underline">Inicio</a> 
         </div>
         <div className="hidden space-x-6 lg:flex"> 
-          <a href="#" className="hover:opacity-50">Acerca De</a> 
+          <a href="#" className="hover:opacity-50 hover:underline">Acerca De</a> 
         </div>
         <div className="hidden space-x-6 lg:flex"> 
-          <a href="#" className="hover:opacity-50">Marcas</a> 
+          <a href="#" className="hover:opacity-50 hover:underline">Marcas</a> 
         </div>
         <div className="hidden space-x-6 lg:flex"> 
-          <a href="#" className="hover:opacity-50">Piñatas</a> 
+          <a href="#" className="hover:opacity-50 hover:underline">Piñatas</a> 
         </div>
         <div className="hidden space-x-6 lg:flex"> 
-          <a href="#" className="hover:opacity-50 text-yellow-600 font-bold">Haz tu Pedido!</a> 
+          <a href="#" className="hover:opacity-50 hover:underline text-yellow-600 font-bold">Haz tu Pedido!</a> 
         </div>
         <div className="flex lg:hidden">
                 <button onClick={toggleMobileMenu} className="flex items-center">
