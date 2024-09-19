@@ -2,6 +2,10 @@
 const About = () => {
   return (
     <section className="container mx-auto mb-8" id="about" >
+      <div className="flex flex-wrap lg:w-[500px] lg:h-[500px] mx-auto my-20 ">
+        <img src="./img/Portada.png" alt="Portada" className="w-full rounded-3xl p-4"></img>
+      </div>
+    
       <h2 className="mb-1 text-center text-3xl tracking-tighter lg:text-4xl">Acerca De Nosotros</h2>
       <div className="mb-10 h-2 w-36 bg-yellow-600 m-auto"></div>
       <div className="flex flex-wrap">

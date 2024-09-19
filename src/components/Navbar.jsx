@@ -9,7 +9,7 @@ const Navbar = () => {
     }
 
   return (
-    <nav className="relative top-4  z-50 flex w-full flex-col items-center justify-center">
+    <nav className="fixed top-4 z-50 flex w-full flex-col items-center justify-center">
       <div className="flex w-full items-center justify-between overflow-y-hidden p-4 backdrop-blur-lg lg:m-2 lg:w-[50rem]  lg:shadow-lg">
         <div className="hidden space-x-6 lg:flex"> 
         <a href="#" className="hover:opacity-50 hover:underline">Inicio</a> 
@@ -22,6 +22,9 @@ const Navbar = () => {
         </div>
         <div className="hidden space-x-6 lg:flex"> 
           <a href="#" className="hover:opacity-50 hover:underline">Piñatas</a> 
+        </div>
+        <div className="hidden space-x-6 lg:flex"> 
+          <a href="#" className="hover:opacity-50 hover:underline">Más...</a> 
         </div>
         <div className="hidden space-x-6 lg:flex"> 
           <a href="#" className="hover:opacity-50 hover:underline text-yellow-600 font-bold">Haz tu Pedido!</a> 
@@ -41,12 +44,11 @@ const Navbar = () => {
                 <a href="#" className="block p-3 tracking-tighter">Acerca De</a>
                 <a href="#" className="block p-3 tracking-tighter">Marcas</a>
                 <a href="#" className="block p-3 tracking-tighter">Piñatas</a>
+                <a href="#" className="block p-3 tracking-tighter">Más...</a>
                 <a href="#" className="block p-3 tracking-tighter text-yellow-600 font-bold">Haz tu Pedido!</a>
               </div>
         )}
-      <div className="relative flex items-center justify-center mb-20">
-        <img src="./img/Portada.png" alt="Portada" className="w-full rounded-3xl p-4"></img>
-      </div>
+      
     </nav>
     
   )

@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Brands from "./components/Brands";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar"
 import Pinatas from "./components/Pinatas";
 
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Brands />
       <Pinatas />
+      <Footer />
     </div>
    
   </div>
