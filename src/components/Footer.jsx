@@ -3,7 +3,7 @@ import { FaDirections, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/f
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-neutral-900 py-12 ">
+    <footer className="w-full bg-neutral-900 py-12 " id="footer">
         <div className="lg:flex w-full ">
             <div className="lg:w-1/2 flex-wrap px-4">
                 <h4 className="font-bold text-3xl lg:mb-8">Contacto</h4>
@@ -33,7 +33,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=100063669514255&locale=es_LA" className="px-2"><FaFacebook className="w-10 h-10 hover:text-yellow-600"/></a>
         </div>
         <div className="mt-10 border-t border-neutral-700">
-            <p className='p-5  text-center text-sm text-neutral-500 '>© Create by Arturo Esqueda M.</p>
+            <p className='p-5  text-center text-sm text-neutral-500 '>©Created by Arturo Esqueda M.</p>
         </div>
        
     </footer>
