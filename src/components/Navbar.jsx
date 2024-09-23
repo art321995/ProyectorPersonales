@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const enviarMensajeWhatsApp = () => {
   const mensaje = '¡Hola! Estoy interesado en realizar un Pedido en Dulcería Imperial';
@@ -63,7 +64,7 @@ const Navbar = () => {
       </div>
       {isMobileMenuOpen && (
         <div className="w-full backdrop-blur-lg lg:hidden">
-          <a onClick={() => handleScroll("inicio")} className="block p-3 tracking-tighter cursor-pointer">Inicio</a>
+          <a href="#" className="block p-3 tracking-tighter cursor-pointer">Inicio</a>
           <a onClick={() => handleScroll("about")} className="block p-3 tracking-tighter cursor-pointer">Acerca De</a>
           <a onClick={() => handleScroll("brands")} className="block p-3 tracking-tighter cursor-pointer">Marcas</a>
           <a onClick={() => handleScroll("pinatas")} className="block p-3 tracking-tighter cursor-pointer">Piñatas</a>
@@ -73,9 +74,14 @@ const Navbar = () => {
         </div>
         )}
       </nav>
-      <div className="flex flex-wrap lg:w-[500px] lg:h-[500px] mx-auto my-20 ">
-        <img src="./img/Portada.png" alt="Portada" className="w-full rounded-3xl p-4"></img>
-      </div>
+      <motion.div 
+        initial={{opacity: 0, y: -50}}
+        whileInView={{opacity: 1, y: 0}}
+        viewport={{once: true}}
+        transition={{ duration: 1.5, delay: 0.2}}
+        className="flex flex-wrap lg:w-[500px] lg:h-[500px] mx-auto my-20 ">
+          <img src="./img/Portada.png" alt="Portada" className="w-full rounded-3xl p-4"></img>
+      </motion.div>
     </div>
     
   );

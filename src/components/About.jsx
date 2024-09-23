@@ -1,7 +1,12 @@
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section className="container mx-auto mb-8" id="about" >
+    <motion.section
+      initial={{opacity: 0, y: -50}}
+      whileInView={{opacity: 1, y: 0}}
+      transition={{ duration: 2, delay: 0.2}}
+      className="container mx-auto mb-8" id="about" >
       <h2 className="mb-1 text-center text-3xl tracking-tighter lg:text-4xl">Acerca De Nosotros</h2>
       <div className="mb-10 h-2 w-36 bg-yellow-600 m-auto"></div>
       <div className="flex flex-wrap">
@@ -30,7 +35,7 @@ const About = () => {
         </div>
       </div>
       
-    </section>
+    </motion.section>
   )
 }
 

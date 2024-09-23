@@ -1,10 +1,22 @@
+import { motion } from "framer-motion";
 import { FaDirections, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+
+
+const enviarMensajeWhatsApp = () => {
+    const mensaje = '¡Hola! Estoy interesado en realizar un Pedido en Dulcería Imperial';
+    const url = `https://wa.me/+5213312250883/?text=${encodeURIComponent(mensaje)}`;
+    window.open(url, '_blank');
+  };
 
 
 const Footer = () => {
   return (
     <footer className="w-full bg-neutral-900 py-12 " id="footer">
-        <div className="lg:flex w-full ">
+        <motion.div 
+            initial={{opacity: 0, y: -50}}
+            whileInView={{opacity: 1, y: 0}}
+            transition={{ duration: 2, delay: 0.2}}
+            className="lg:flex w-full ">
             <div className="lg:w-1/2 flex-wrap px-4">
                 <h4 className="font-bold text-3xl lg:mb-8">Contacto</h4>
                 <div className="flex lg:text-xl">
@@ -15,7 +27,7 @@ const Footer = () => {
                 </div>
                 <div className="flex lg:py-4 lg:text-xl">
                     <FaWhatsapp />
-                    <a className=" hover:text-yellow-600 px-2 hover:underline" href="">
+                    <a onClick={enviarMensajeWhatsApp} className=" hover:text-yellow-600 px-2 hover:underline" href="">
                         33 1225 0883
                     </a>
                 </div>
@@ -26,15 +38,23 @@ const Footer = () => {
                 <p className="lg:text-end">S 10:45 a 20:00</p>
                 <p className="lg:text-end">D 11:00 a 14:30</p>
             </div>
-        </div>
-        <div className="flex m-auto justify-center items-center mt-8 lg:mt-0">
-            <a href="" className="px-2"><FaWhatsapp className="w-10 h-10 hover:text-yellow-600"/></a>
-            <a href="https://www.instagram.com/dulceriaimperial.1028/" className="px-2"><FaInstagram className="w-10 h-10 hover:text-yellow-600"/></a>
-            <a href="https://www.facebook.com/profile.php?id=100063669514255&locale=es_LA" className="px-2"><FaFacebook className="w-10 h-10 hover:text-yellow-600"/></a>
-        </div>
-        <div className="mt-10 border-t border-neutral-700">
+        </motion.div>
+        <motion.div
+            initial={{opacity: 0, y: 50}}
+            whileInView={{opacity: 1, y: 0}}
+            transition={{ duration: 2, delay: 0.2}} 
+            className="flex m-auto justify-center items-center mt-8 lg:mt-0">
+                <a href="" onClick={enviarMensajeWhatsApp} className="px-2"><FaWhatsapp className="w-10 h-10 hover:text-yellow-600"/></a>
+                <a href="https://www.instagram.com/dulceriaimperial.1028/" className="px-2"><FaInstagram className="w-10 h-10 hover:text-yellow-600"/></a>
+                <a href="https://www.facebook.com/profile.php?id=100063669514255&locale=es_LA" className="px-2"><FaFacebook className="w-10 h-10 hover:text-yellow-600"/></a>
+        </motion.div>
+        <motion.div
+            initial={{opacity: 0, y: 50}}
+            whileInView={{opacity: 1, y: 0}}
+            transition={{ duration: 2, delay: 0.2}} 
+            className="mt-10 border-t border-neutral-700">
             <p className='p-5  text-center text-sm text-neutral-500 '>©Created by Arturo Esqueda M.</p>
-        </div>
+        </motion.div>
        
     </footer>
   )
