@@ -10,14 +10,14 @@ const Mor = () => {
             transition={{ duration: 2, delay: 0.2}}
         >
             <h2 className="mb-1 text-center text-3xl tracking-tighter lg:text-4xl">Más...</h2>
-            <div className="lg:mb-10 h-2 w-20 bg-yellow-600 m-auto md:mb-2"></div>
+            <div className="h-2 w-20 bg-yellow-600 m-auto mb-10"></div>
         </motion.div>
         
         <motion.div 
             initial={{opacity: 0, x: -50}}
             whileInView={{opacity: 1, x: 0}}
             transition={{ duration: 2, delay: 0.2}}
-            className="grid grid-cols-2 gap-16 p-4 md:grid-cols-4">
+            className="grid grid-cols-2 lg:gap-16 gap-2 p-4 md:grid-cols-4">
                 <div className="text-center items-center">
                     <img className="rounded-2xl" src="./img/Botana.jpg"></img>
                     <h4 className="lg:text-2xl text-xl font-bold lg:py-4 py-2 text-yellow-600">- Botana -</h4>
@@ -42,7 +42,7 @@ const Mor = () => {
             initial={{opacity: 0, x: 50}}
             whileInView={{opacity: 1, x: 0}}
             transition={{ duration: 2, delay: 0.2}}
-            className="grid grid-cols-2 gap-16 p-4 md:grid-cols-4">
+            className="grid grid-cols-2 lg:gap-16 gap-2 p-4 md:grid-cols-4">
             <div className="text-center items-center">
                 <img className="rounded-2xl" src="./img/Globos.jpg"></img>
                 <h4 className="lg:text-2xl text-xl font-bold lg:py-4 py-2 text-yellow-600">- Globos -</h4>
