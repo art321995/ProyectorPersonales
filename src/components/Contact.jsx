@@ -1,5 +1,7 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
+import { SiNetlify } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -25,6 +27,11 @@ const Contact = () => {
               className="my-4">{CONTACT.phone}
             </motion.p>
             <a href="#" className="border-b">{CONTACT.email}</a>
+            <div className="mt-10 flex items-center justify-center gap-4 text-3xl">
+              <a href="https://www.linkedin.com/in/arturo-esqueda-morales-3feb1995" className='hover:text-neutral-500'> <FaLinkedin /> </a>
+              <a href="https://github.com/art321995" className='hover:text-neutral-500'> <FaGithub /> </a>
+              <a href="https://app.netlify.com/teams/art321995" className='hover:text-neutral-500'> <SiNetlify /> </a>
+            </div>
         </div>
     </div>
   )
