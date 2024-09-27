@@ -26,7 +26,7 @@ const Contact = () => {
               transition={{ duration: 1 }} 
               className="my-4">{CONTACT.phone}
             </motion.p>
-            <a href="#" className="border-b">{CONTACT.email}</a>
+            <a className="border-b">{CONTACT.email}</a>
             <div className="mt-10 flex items-center justify-center gap-4 text-3xl">
               <a href="https://www.linkedin.com/in/arturo-esqueda-morales-3feb1995" className='hover:text-neutral-500'> <FaLinkedin /> </a>
               <a href="https://github.com/art321995" className='hover:text-neutral-500'> <FaGithub /> </a>
