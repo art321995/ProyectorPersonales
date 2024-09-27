@@ -81,11 +81,11 @@ export const PROJECTS = [
     url: "https://restaurantemxaem08.netlify.app/",
   },
   {
-    title: "MisPelis",
+    title: "Dulceria Imperial",
     image: project3,
-    description:"Sitio web Sencilla para agregar, buscar y eliminar peliculas",
-    technologies: ["vite","HTML", "React", "CSS", "Node.js"],
-    url:"https://mispelisarturo1508.netlify.app/",
+    description:"Sitio web para una Duleria",
+    technologies: ["vite","HTML", "React", "Tailwind", "Node.js", "Responsive"],
+    url:"https://dulceriaimperial.netlify.app",
   },
   {
     title: "Login",
