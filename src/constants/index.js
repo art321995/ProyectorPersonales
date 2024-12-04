@@ -55,9 +55,9 @@ export const PROJECTS = [
   {
     title: "Optica Innovision",
     image: project1,
-    description:"Sitio Oficial de Optica Innovision",
+    description:"Sitio para Optica Innovision",
     technologies: ["vite", "HTML", "CSS", "React", "Node.js", "Formik", "Yup", "Responsive"],
-    url:"https://opticainnovision.com/",
+    url:"https://opticainnovisionaem08.netlify.app/",
   },
   {
     title: "Inmobiliaria CasasMX",
