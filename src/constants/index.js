@@ -4,6 +4,7 @@ import project3 from "../assets/img/Proyecto3.jpg";
 import project4 from "../assets/img/Proyecto4.jpg";
 import project5 from "../assets/img/Proyecto5.png";
 import project6 from "../assets/img/Proyecto6.jpg";
+import project7 from "../assets/img/Proyecto7.png";
 
 export const HERO_CONTENT = `Apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. 
                              He perfeccionado mis habilidades en tecnologías Front-End como HTML, CSS, JavaScritp y frameworks como React.
@@ -58,6 +59,13 @@ export const PROJECTS = [
     description:"Sitio para Optica Innovision",
     technologies: ["vite", "HTML", "CSS", "React", "Node.js", "Formik", "Yup", "Responsive"],
     url:"https://opticainnovisionaem08.netlify.app/",
+  },
+  {
+    title: "Disney Clone",
+    image: project7,
+    description:"Se realiza Clone de la pagina de Disney Plus",
+    technologies: ["vite", "HTML", "CSS", "React", "Node.js", "Responsive"],
+    url:"https://disneycloneart1508.netlify.app/",
   },
   {
     title: "Inmobiliaria CasasMX",
