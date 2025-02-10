@@ -11,4 +11,4 @@ function MovieCard({movie}) {
   )
 }
 
-export default MovieCard
+export default MovieCard;
