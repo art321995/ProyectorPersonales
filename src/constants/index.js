@@ -87,7 +87,7 @@ export const PROJECTS = [
     image: project2,
     description:"Sitio creado para uso personal como un TODOList",
     technologies: ["vite", "HTML", "React", "Tailwind", "Node.js", "Responsive"],
-    url: "https://app.netlify.com/sites/lista-super-aem1508/overview",
+    url: "https://lista-super-aem1508.netlify.app/",
   },
   {
     title: "Restaurante MX",
