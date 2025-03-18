@@ -5,6 +5,7 @@ import project4 from "../assets/img/Proyecto4.jpg";
 import project5 from "../assets/img/Proyecto5.png";
 import project6 from "../assets/img/Proyecto6.jpg";
 import project7 from "../assets/img/Proyecto7.png";
+import project8 from "../assets/img/Proyecto8.png";
 
 export const HERO_CONTENT = `Apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. 
                              He perfeccionado mis habilidades en tecnologías Front-End como HTML, CSS, JavaScritp y frameworks como React.
@@ -75,11 +76,18 @@ export const PROJECTS = [
     url:"https://inmobiliariaaem08.netlify.app/",
   },
   {
+    title: "Banco borasBank",
+    image: project8,
+    description:"Sitio para una institucion financiera",
+    technologies: ["NextJs", "Tailwind", "React", "TypeScript", "Responsive"],
+    url:"https://inmobiliariaaem08.netlify.app/",
+  },
+  {
     title: "Lista de Super",
     image: project2,
     description:"Sitio creado para uso personal como un TODOList",
     technologies: ["vite", "HTML", "React", "Tailwind", "Node.js", "Responsive"],
-    url: "https://lista-super-aem1508.netlify.app/",
+    url: "https://bankaem08.netlify.app/",
   },
   {
     title: "Restaurante MX",
