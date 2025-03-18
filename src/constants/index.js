@@ -80,14 +80,14 @@ export const PROJECTS = [
     image: project8,
     description:"Sitio para una institucion financiera",
     technologies: ["NextJs", "Tailwind", "React", "TypeScript", "Responsive"],
-    url:"https://inmobiliariaaem08.netlify.app/",
+    url:"https://bankaem08.netlify.app/",
   },
   {
     title: "Lista de Super",
     image: project2,
     description:"Sitio creado para uso personal como un TODOList",
     technologies: ["vite", "HTML", "React", "Tailwind", "Node.js", "Responsive"],
-    url: "https://bankaem08.netlify.app/",
+    url: "https://app.netlify.com/sites/lista-super-aem1508/overview",
   },
   {
     title: "Restaurante MX",
