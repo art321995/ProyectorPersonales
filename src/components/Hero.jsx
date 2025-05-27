@@ -1,12 +1,16 @@
-import { HERO_CONTENT } from "../constants";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
 const container = (delay) =>({
     hidden:{x: -100, opacity:0},
-    visible:{x: 0, opacity: 1, transition:{duration: 0.5, delay} }
+    visible:{x: 0, opacity: 1, transition:{duration: 2, delay} }
 });
 
 const Hero = () => {
+
+    const { t } = useTranslation("translate"); 
+  
+
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
         <div className="flex flex-wrap">
@@ -23,14 +27,15 @@ const Hero = () => {
                         initial="hidden"
                         animate="visible"
                         className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight
-                        text-transparent">Front-End Developer
+                        text-transparent">
+                        {t('developer')}
                     </motion.span>
                     <motion.p
                         variants={container(0)}
                         initial="hidden"
                         animate="visible" 
                         className="my-2 max-w-xl py-6 font-light tracking-tighter">
-                            {HERO_CONTENT}
+                        {t('herocontent')}
                     </motion.p>
                 </div>
             </div>
@@ -39,7 +44,7 @@ const Hero = () => {
                     <motion.img 
                         initial={{x: 100, opacity:0}}
                         animate={{x: 0, opacity: 1}}
-                        transition={{duration: 1, delay: 0.5}}
+                        transition={{duration: 2}}
                         className="rounded-2xl" 
                         src="./img/Perfil2.jpg" 
                         alt="Arturo Esqueda"

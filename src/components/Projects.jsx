@@ -1,7 +1,12 @@
-import { PROJECTS } from "../constants";
+import { useTranslation } from "react-i18next";
+import { PROJECTS, PROJECTS_EN } from "../constants";
 import { motion } from "framer-motion";
 
 const Projects = () => {
+
+  const { t, i18n } = useTranslation("translate");
+  const projectsData = i18n.language === "es" ? PROJECTS : PROJECTS_EN;
+
   return (
     <div className="border-b border-neutral-900 pb-24">
         <motion.h2
@@ -9,10 +14,10 @@ const Projects = () => {
           initial={{ opacity: 0, y: -100}}
           transition={{ duration: 1.5 }}  
           className="my-20 text-center text-4xl">
-            Proyectos
+            {t("projects")}
           </motion.h2>
         <div>
-           {PROJECTS.map((project, index) =>(
+           {projectsData.map((project, index) =>(
             <div key={index} className="mb-8 flex flex-wrap lg:justify-center" >
                 <motion.div
                     whileInView={{opacity: 1, x: 0}}
@@ -51,4 +56,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projects;

@@ -1,0 +1,14 @@
+{
+    "spanish" : "Español",
+    "english" : "Ingles",
+    "developer": "Desarrollador Front-End",
+    "herocontent": "Apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. He perfeccionado mis habilidades en tecnologías Front-End como HTML, CSS, JavaScritp y frameworks como React. Motivado para aprender y crecer en un entorno colaborativo y dinámico, aportando soluciones creativas y efectivas a los desafíos de desarrollo web.",
+    "about": "Acerca",
+    "me": "De Mi",
+    "download": "Descargar CV",
+    "aboutText": "Soy un desarrollador Front-End Junior dedicado y versátil con pasión por crear soluciones eficientes y fáciles de usar para aplicaciones web. Cuento con experiencia con variedad de tecnologías, incluidos React, Next.js, Node.js, SASS, Tailwind y una noción con MongoDB y Firebase. Mi viaje en el desarrollo web comenzó con una profunda curiosidad por cómo funcionan las cosas, y ha evolucionado hasta convertirse en una carrera en la que me esfuerzo continuamente por aprender y adaptarse a nuevos desafíos a lo cual e aplicado hasta el día de hoy en proyectos personales. Prospero en entornos colaborativos y disfruto resolviendo problemas complejos para entregar soluciones de alta calidad. Fuera de la programación, disfruto mantenerme activo y explorar nuevas tecnologías.",
+    "technologies": "Tecnologías",
+     "experience": "Experiencia",
+     "projects": "Proyectos",
+     "contact": "Contacto"
+}
