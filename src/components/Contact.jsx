@@ -27,8 +27,8 @@ const Contact = () => {
         </motion.h2>
         <motion.div 
           whileInView={{opacity: 1, y: 0}}
-          initial={{ opacity: 0, y: 100}}
-          transition={{ duration: 2 }}
+          initial={{ opacity: 0, y: 50}}
+          transition={{ duration: 1.5 }}
           className="text-center tracking-tighter">
             <p className="my-4">
               {CONTACT.address}
