@@ -6,6 +6,7 @@ import project5 from "../assets/img/Proyecto5.png";
 import project6 from "../assets/img/Proyecto6.jpg";
 import project7 from "../assets/img/Proyecto7.png";
 import project8 from "../assets/img/Proyecto8.png";
+import project9 from "../assets/img/Proyecto9.png";
 
 export const HERO_CONTENT = `Apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. 
                              He perfeccionado mis habilidades en tecnologías Front-End como HTML, CSS, JavaScritp y frameworks como React.
@@ -140,6 +141,13 @@ export const PROJECTS = [
     url:"https://dulceriaimperial.netlify.app",
   },
   {
+    title: "Curriculum Vitae",
+    image: project9,
+    description:"Sitio web para un Curriculum Vitae en Español e Inlges",
+    technologies: ["Vite","HTML", "React", "Tailwind", "i18Next", "Responsive"],
+    url:"https://portafoliolraem08.netlify.app/",
+  },
+  {
     title: "Login",
     image: project4,
     description:"Sitio de Login conectada a Firebase",
@@ -197,6 +205,13 @@ export const PROJECTS_EN = [
     description:"Website for a candy store",
     technologies: ["Vite","HTML", "React", "Tailwind", "Node.js", "Responsive"],
     url:"https://dulceriaimperial.netlify.app",
+  },
+  {
+    title: "Curriculum Vitae",
+    image: project9,
+    description:"Website for a Curriculum Vitae in Spanish and English",
+    technologies: ["Vite","HTML", "React", "Tailwind", "i18Next", "Responsive"],
+    url:"https://portafoliolraem08.netlify.app/",
   },
   {
     title: "Login",
