@@ -8,29 +8,35 @@ import project7 from "../assets/img/Proyecto7.png";
 import project8 from "../assets/img/Proyecto8.png";
 import project9 from "../assets/img/Proyecto9.png";
 
-export const HERO_CONTENT = `Apasionado desarrollador Front-End Junior con una habilidad especial para crear aplicaciones web responsivas. 
+export const HERO_CONTENT = `Apasionado desarrollador Front-End con una habilidad especial para crear aplicaciones web responsivas. 
                              He perfeccionado mis habilidades en tecnologías Front-End como HTML, CSS, JavaScritp y frameworks como React.
                              Motivado para aprender y crecer en un entorno colaborativo y dinámico, aportando soluciones creativas y 
                              efectivas a los desafíos de desarrollo web.`;
                          
 
-export const ABOUT_TEXT = `Soy un desarrollador Front-End Junior dedicado y versátil con pasión por crear soluciones eficientes y fáciles de usar 
-                           para aplicaciones web. Cuento con experiencia con variedad de tecnologías, incluidos React, Next.js, Node.js,
-                           SASS, Tailwind y una noción con MongoDB y Firebase. Mi viaje en el desarrollo web comenzó con una profunda 
-                           curiosidad por cómo funcionan las cosas, y ha evolucionado hasta convertirse en una carrera en la que me 
-                           esfuerzo continuamente por aprender y adaptarse a nuevos desafíos a lo cual e aplicado hasta el día de hoy 
-                           en proyectos personales. Prospero en entornos colaborativos y disfruto resolviendo problemas complejos para 
-                           entregar soluciones de alta calidad. Fuera de la programación, disfruto mantenerme activo y explorar nuevas
-                           tecnologías.`;
+export const ABOUT_TEXT = `Soy un profesional con más de 10 años de experiencia en soporte técnico e ingeniería de campo, especializado en el diagnóstico
+                           y reparación de hardware/software, instalación de sistemas operativos móviles, atención a clientes en sitio y remoto, 
+                           y gestión de reportes a través de herramientas como SAP y CRM. En los últimos años, he desarrollado una fuerte pasión 
+                           por el desarrollo web, lo cual me ha llevado a formarme como Desarrollador Front-End Jr, adquiriendo experiencia en tecnologías como HTML5, 
+                           CSS3, JavaScript, React, Next.js y Tailwind. He creado proyectos personales que puedes encontrar en mi portafolio, donde aplico buenas 
+                           prácticas, diseño responsivo y lógica de programación moderna.`;
                   
 
 export const EXPERIENCES = [
+  { 
+    year: "2023 - Actualmente",
+    role: "Freelance / Proyecto Personal",
+    company: "Autonomo",
+    description: `Desarrollo de aplicaciones web enfocadas en la experiencia del usuario utilizando tecnologías modernas del ecosistema JavaScript.
+                  He trabajado de forma autodidacta en proyectos personales donde aplico los conocimientos adquiridos en cursos especializados, con el objetivo de seguir mejorando mis habilidades como desarrollador Front-End.`,
+    technologies: ["HTML5", "CSS3", "JavaScript","ReactJs", "Tailwind", "NextJs", "SASS", "Git/GitHub", "Firebase"],
+  },
   {
     year: "2019 - Actualmente",
     role: "Field Service Engineer",
     company: "Honeywell",
     description: `Reparaciones a nivel de software y hardware en Hand Held - Reparaciones a nivel de software y hardware en Impresoras portátiles Bluetooth -
-                  Cierre de reportes en CRM - Validación de tickets - Validación de contratos de los equipos a reparar - 
+                  Cierre de reportes en CRM - Validación de tickets - Validación de contratos de los equipos a reparar(SLA) - 
                   Cierre de reportes en SAP - Trabajo en Campo - Trabajo Remoto - Carga de versiones Android y Windows Mobile`,
     technologies: ["SAP", "CRM", "Android", "Windows Mobile"],
   },
@@ -57,12 +63,20 @@ export const EXPERIENCES = [
 ];
 
 export const EXPERIENCES_EN = [
+   { 
+    year: "2023 - At the moment",
+    role: "Freelance / Personal Project",
+    company: "Autonomous",
+    description: `Developing web applications focused on user experience using modern technologies from the JavaScript ecosystem.
+                  I have worked as a self-taught individual on personal projects where I apply the knowledge acquired in specialized courses, with the goal of continuing to improve my skills as a front-end developer.`,
+    technologies: ["HTML5", "CSS3", "JavaScript","ReactJs", "Tailwind", "NextJs", "SASS", "Git/GitHub", "Firebase"],
+  },
   {
     year: "2019 - At the moment",
     role: "Field Service Engineer",
     company: "Honeywell",
     description: `Software and hardware repairs for handheld devices - Software and hardware repairs for Bluetooth portable printers - 
-                  Closing reports in CRM - Ticket validation - Contract validation for equipment to be repaired - Closing reports in SAP - 
+                  Closing reports in CRM - Ticket validation - Contract validation for equipment to be repaired(SLA) - Closing reports in SAP - 
                   Field work - Remote work - Uploading Android and Windows Mobile versions`,
     technologies: ["SAP", "CRM", "Android", "Windows Mobile"],
   },

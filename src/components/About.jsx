@@ -29,8 +29,8 @@ const About = () => {
                 <div className="text-center lg:text-start">
                     <a
                     className="text-2xl hover:underline" 
-                    href="/img/CVArturoEsquedaM.pdf" 
-                    download="CVArturoEsquedaM.pdf">
+                    href="/img/CV_ArturoEsqueda_Frontend.pdf" 
+                    download="CV_ArturoEsqueda_Frontend.pdf">
                         {t("download")}
                     </a>
                 </div>
