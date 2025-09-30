@@ -39,14 +39,14 @@ const Hero = () => {
                     </motion.p>
                 </div>
             </div>
-            <div className="w-full lg:w-1/2 lg:p-8">
-                <div className="felx justify-center">
+            <div className="w-1/2 m-auto lg:w-1/5 lg:p-2">
+                <div className="flex">
                     <motion.img 
                         initial={{x: 100, opacity:0}}
                         animate={{x: 0, opacity: 1}}
                         transition={{duration: 2}}
                         className="rounded-2xl" 
-                        src="./img/Perfil2.jpg" 
+                        src="./img/PerfilAEM.jpeg" 
                         alt="Arturo Esqueda"
                     />
                 </div>

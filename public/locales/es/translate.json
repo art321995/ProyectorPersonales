@@ -8,7 +8,9 @@
     "download": "Descargar CV",
     "aboutText": "Soy un profesional con más de 10 años de experiencia en soporte técnico e ingeniería de campo, especializado en el diagnóstico y reparación de hardware/software, instalación de sistemas operativos móviles, atención a clientes en sitio y remoto, y gestión de reportes a través de herramientas como SAP y CRM.En los últimos años, he desarrollado una fuerte pasión por el desarrollo web, lo cual me ha llevado a formarme como Desarrollador Front-End Jr, adquiriendo experiencia en tecnologías como HTML5, CSS3, JavaScript, React, Next.js y Tailwind. He creado proyectos personales que puedes encontrar en mi portafolio, donde aplico buenas prácticas, diseño responsivo y lógica de programación moderna.",
     "technologies": "Tecnologías",
-     "experience": "Experiencia",
-     "projects": "Proyectos",
-     "contact": "Contacto"
+    "education": "Educación",
+    "courses": "Cursos",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
 }

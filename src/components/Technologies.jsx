@@ -7,6 +7,7 @@ import { RiTailwindCssLine } from "react-icons/ri";
 import { SiSass } from "react-icons/si";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { COURSES, COURSES_EN, EDUCATION, EDUCATION_EN } from "../constants";
 
 const iconVariants = (duration) => ({
   initial: {y: -12},
@@ -24,9 +25,59 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
 
-  const { t } = useTranslation("translate");
+  const { t, i18n } = useTranslation("translate");
+  const educationData = i18n.language === "es" ? EDUCATION : EDUCATION_EN;
+  const coursesData = i18n.lenguage === "es" ? COURSES : COURSES_EN;
+  
   return (
     <div className="border-b border-neutral-900 pb-24">
+        <div>
+          <motion.h2
+          whileInView={{opacity: 1, y: 0}}
+          initial={{ opacity: 0, y: -100}}
+          transition={{ duration: 1.5 }} 
+          className="my-20 text-4xl text-center">{t("education")}
+        </motion.h2>
+          {educationData.map((education, index) =>(
+            <div key={index} className="mb-8 flex-wrap text-center">
+                  <motion.div
+                    whileInView={{opacity: 1, x: 0}}
+                    initial={{ opacity: 0, x: -100}}
+                    transition={{ duration: 1.5 }} 
+                    className=" m-auto">
+                    <p className="mb-2 text-xl font-bold">{education.name}</p>
+                  </motion.div>
+                  <motion.div
+                   whileInView={{opacity: 1, x: 0}}
+                    initial={{ opacity: 0, x: -100}}
+                    transition={{ duration: 1.5 }} 
+                    className="flex justify-center ">
+                    <p className="mb-2 text-sm">{education.degree} | </p>
+                    <p className="mb-2 text-sm pl-2 text-purple-800 "> {education.year}</p>
+                  </motion.div>
+              </div>
+          ))}
+        </div>
+        <div>
+          <motion.h2
+          whileInView={{opacity: 1, y: 0}}
+          initial={{ opacity: 0, y: -100}}
+          transition={{ duration: 1.5 }} 
+          className="my-20 text-4xl text-center">{t("courses")}
+        </motion.h2>
+          {coursesData.map((courses, index) =>(
+            <div key={index} className="mb-8 flex-wrap lg:justify-center">
+                  <motion.div
+                    whileInView={{opacity: 1, x: 0}}
+                    initial={{ opacity: 0, x: -100}}
+                    transition={{ duration: 1.5 }} 
+                    className="w-full text-center">
+                    <a href={courses.url} className="mb-2 text-xl hover:text-neutral-500">{courses.name}</a>
+                  </motion.div>
+            </div>
+            ))}
+        </div>
+        <div>
         <motion.h2
           whileInView={{opacity: 1, y: 0}}
           initial={{ opacity: 0, y: -100}}
@@ -88,6 +139,7 @@ const Technologies = () => {
             <SiSass className="text-6xl text-pink-400" />
           </motion.div>
         </motion.div>
+        </div>
     </div>
   )
 }

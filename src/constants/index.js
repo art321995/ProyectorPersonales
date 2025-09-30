@@ -21,6 +21,90 @@ export const ABOUT_TEXT = `Soy un profesional con más de 10 años de experienci
                            CSS3, JavaScript, React, Next.js y Tailwind. He creado proyectos personales que puedes encontrar en mi portafolio, donde aplico buenas 
                            prácticas, diseño responsivo y lógica de programación moderna.`;
                   
+export const EDUCATION =[
+  {
+    name: "Universidad Cuauhtémoc",
+    degree: "Ingeniería en Sistemas Computacionales",
+    year:`2017-2020 "No Concluida"`
+  },
+  {
+    name: "Conalep Tlaquepaque",
+    degree: "Técnico en Informática",
+    year:"2010-2013"
+  }
+]
+export const EDUCATION_EN =[
+  {
+    name: "Cuauhtémoc University",
+    degree: "Computer Systems Engineering",
+    year:`2017-2020 "Not Completed"`
+  },
+  {
+    name: "Conalep Tlaquepaque",
+    degree: "Computer Technician",
+    year:"2010-2013"
+  }
+]
+export const COURSES = [
+  {
+    name:"- Diseño Web Profesional",
+    url:"https://honeywell.udemy.com/certificate/UC-625a2728-7fc9-457d-826d-478dde5b26f8/"
+  },
+  {
+    name:"- JavaScript Moderno",
+    url:"https://honeywell.udemy.com/certificate/UC-5c420c22-e7db-4081-99e3-1bb0c57ffc4c/"
+  },
+  {
+    name:"- Lógica de Programación y Pruebas Técnicas",
+    url:"https://honeywell.udemy.com/certificate/UC-0c4de1ee-ef3f-4f18-9590-07974fe36b53/"
+  },
+  {
+    name:"- React",
+    url:"https://honeywell.udemy.com/certificate/UC-25c5ff01-ebc9-40ac-8ea4-154e1a7d629c/"
+  },
+  {
+    name:"- TypeScript",
+    url:"https://honeywell.udemy.com/certificate/UC-c3786f54-f447-46a0-88d5-3714d0525290/"
+  },
+  {
+    name:"- React JS + Next JS 14",
+    url:"https://honeywell.udemy.com/certificate/UC-0ec05ee8-068f-4e65-b98c-84d37ce5fb2f/"
+  },
+  {
+    name:"- Máster en React, Hooks, MERN, NodeJS, JWT+",
+    url:"https://honeywell.udemy.com/certificate/UC-749302f6-89f4-4421-98e4-39d5faf0e180/"
+  },
+]
+export const COURSES_EN = [
+  {
+    name:"- Professional Web Design",
+    url:"https://honeywell.udemy.com/certificate/UC-625a2728-7fc9-457d-826d-478dde5b26f8/"
+  },
+  {
+    name:"- JavaScript Moderno",
+    url:"https://honeywell.udemy.com/certificate/UC-5c420c22-e7db-4081-99e3-1bb0c57ffc4c/"
+  },
+  {
+    name:"- Lógica de programación y pruebas técnicas",
+    url:"https://honeywell.udemy.com/certificate/UC-0c4de1ee-ef3f-4f18-9590-07974fe36b53/"
+  },
+  {
+    name:"- React",
+    url:"https://honeywell.udemy.com/certificate/UC-25c5ff01-ebc9-40ac-8ea4-154e1a7d629c/"
+  },
+  {
+    name:"- TypeScript",
+    url:"https://honeywell.udemy.com/certificate/UC-c3786f54-f447-46a0-88d5-3714d0525290/"
+  },
+  {
+    name:"- React JS + Next JS 14",
+    url:"https://honeywell.udemy.com/certificate/UC-0ec05ee8-068f-4e65-b98c-84d37ce5fb2f/"
+  },
+  {
+    name:"- Máster en React, Hooks, MERN, NodeJS, JWT+",
+    url:"https://honeywell.udemy.com/certificate/UC-749302f6-89f4-4421-98e4-39d5faf0e180/"
+  },
+]
 
 export const EXPERIENCES = [
   { 
